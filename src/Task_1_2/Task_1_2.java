@@ -23,19 +23,19 @@ public class Task_1_2 {
 		System.out.println("Введите значения : a, b, c");
 		System.out.println("----------------------------------");
 		
-		System.out.print("Введите значения : a...........:");
+		System.out.print("Введите значения : a...........:"+ "  ");
 		a = scanner.nextDouble();
 		System.out.println("----------------------------------");
 		
-		System.out.print("Введите значения : b...........:");
+		System.out.print("Введите значения : b...........:"+ "  ");
 		b = scanner.nextDouble();
 		System.out.println("----------------------------------");
 		
-		System.out.print("Введите значения : c...........:");
+		System.out.print("Введите значения : c...........:"+ "  ");
 		c = scanner.nextDouble();
 		System.out.println("----------------------------------");
 		
-		z =
+		z = ( b + Math.sqrt(Math.pow(b,2) + 4*a*c) ) / (2*a) -  Math.pow(a,3)*c + Math.pow(b,-2);
 		
 		System.out.println("----------------------------------");
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
