@@ -8,6 +8,7 @@ public class Task_1_4 {
 
 	public static void main(String[] args) {
 		
+		/* Получение начального числа рандомным путём */
 		int a = 100 + (int) (Math.random()*(999-100));
 		int b = 100 + (int) (Math.random()*(999-100));
 		
