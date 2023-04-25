@@ -54,7 +54,7 @@ public class Task_2_3 {
 		System.out.println("----------------------------------");
 		
 		System.out.println("Введите Координаты точки C :");
-        System.out.println("----------------------------------");
+        
 		
 		System.out.print("Введите значения : X...........:");
 		x3 = scanner.nextDouble();
