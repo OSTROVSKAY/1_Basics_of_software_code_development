@@ -5,11 +5,11 @@
       заданному е. Общий член ряда имеет вид:
 */
 
-package Test_3_5;
+package Task_3_5;
 
-import Task_3_2.Task_3_2_res;
 
-public class Test_3_5 {
+
+public class Task_3_5 {
 
 	public static void main(String[] args) {
 		
@@ -18,8 +18,26 @@ public class Test_3_5 {
 		System.out.println("---------------------------------------------");
 		
 		System.out.println("ВВЕДИТЕ ЧИСЛО e");
+		System.out.println("---------------");
 		
-		Task_3_5_res Inp = new Task_3_2_res();
+		Task_3_5_res Inp = new Task_3_5_res();
+		
+		Inp.InputDouble();
+		
+		
+		System.out.println("ВВЕДИТЕ ЧИСЛО n");
+		System.out.println("---------------");
+		
+		int n = Inp.InputInt();
+		
+		
+		for ( int i = 1; i <= n; i = i + 1 );
+				{
+					
+					
+					
+				}
+		
 		
 		
 		
@@ -28,7 +46,7 @@ public class Test_3_5 {
 		
 		
 		System.out.println("----------------------------------");
-		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
+		//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
 		System.out.println("----------------------------------");
 
 	}

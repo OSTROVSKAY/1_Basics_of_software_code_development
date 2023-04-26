@@ -1,8 +1,8 @@
-package Test_3_5;
+package Task_3_5;
 
 import java.util.Scanner;
 
-public class Test_3_5_res {
+public class Task_3_5_res {
 	
 	 public double InputDouble () {
 		  
@@ -25,17 +25,17 @@ public class Test_3_5_res {
             	                System.out.println("Данные введены не правильно. Введите снова");
                              }
         System.out.println("------------------------------------------");
-        scanner.close();
+       
        } while ( check == 0 );
 		return x; 
 		
    }
 	
 	
-	 public double InputInt () {
+	 public int InputInt () {
 		  
 	      int check = 1;
-	      double x  = 0;
+	      int x  = 0;
 	     
 	      do {
 		        Scanner scanner = new Scanner(System.in);
