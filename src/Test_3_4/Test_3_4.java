@@ -3,6 +3,8 @@
 
 package Test_3_4;
 
+import java.math.BigInteger;
+
 public class Test_3_4 {
 
 	public static void main(String[] args) {
@@ -17,14 +19,21 @@ public class Test_3_4 {
 		int B = 200;
 				
 		// Произведение квадратов первых двухсот чисел
-		int Y = 1;
-		
+		BigInteger YY = BigInteger.valueOf(1);
+		BigInteger Y = BigInteger.valueOf(1);
 		
 		// Вычисление произведение квадратов первых двухсот чисел
 		
 		for ( int i = A; i <= B; i++ )
-           {
-	          Y = Y * (i*i);
+           { 
+			
+			YY = BigInteger.valueOf(i*i);
+			
+			Y = Y.multiply(BigInteger.valueOf((long) i * i));
+			
+			  System.out.println("-----------------------------------------------------");
+	          System.out.println( "ЧИСЛО :" + "  " + i + "    " + "КВАДРАТ ЧИСЛА :" + "  "+ YY );
+	          System.out.println("-----------------------------------------------------");
 	       }
 		
 		System.out.println("-----------------------------------------------------");
