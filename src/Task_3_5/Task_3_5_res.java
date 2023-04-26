@@ -14,21 +14,20 @@ public class Task_3_5_res {
 		        System.out.print("Введите Данные :.............:" + "  ");
                 String xx = scanner.nextLine();
         
-               check = 1;
+                check = 1;
         
                          try {
-                               x = Double.parseDouble(xx);
+                                x = Double.parseDouble(xx);
                              } 
-                               catch (NumberFormatException e) {
+                                catch (NumberFormatException e) {
                 	            check = 0;
             	                System.out.println("------------------------------------------");
             	                System.out.println("Данные введены не правильно. Введите снова");
                              }
-        System.out.println("------------------------------------------");
+        System.out.println("------------------------------");
        
        } while ( check == 0 );
 		return x; 
-		
    }
 	
 	
@@ -38,27 +37,25 @@ public class Task_3_5_res {
 	      int x  = 0;
 	     
 	      do {
-		        Scanner scanner = new Scanner(System.in);
-		        System.out.print("Введите Данные :.............:" + "  ");
+		       Scanner scanner = new Scanner(System.in);
+		       System.out.print("Введите Данные :.............:" + "  ");
                String xx = scanner.nextLine();
        
-              check = 1;
+               check = 1;
        
                         try {
                               x = Integer.parseInt(xx);
                             } 
-                              catch (NumberFormatException e) {
+                            catch (NumberFormatException e) {
                	            check = 0;
            	                System.out.println("------------------------------------------");
            	                System.out.println("Данные введены не правильно. Введите снова");
                             }
-       System.out.println("------------------------------------------");
-       scanner.close();
+       System.out.println("------------------------------");
+       
       } while ( check == 0 );
 		return x; 
   }
-	 
-	 
 	 
 	 
 	public double member (int n) {
@@ -66,6 +63,4 @@ public class Task_3_5_res {
 		return a;
 	}
 	
-	
-
 }

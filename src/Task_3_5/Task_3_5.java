@@ -7,8 +7,6 @@
 
 package Task_3_5;
 
-
-
 public class Task_3_5 {
 
 	public static void main(String[] args) {
@@ -22,7 +20,7 @@ public class Task_3_5 {
 		
 		Task_3_5_res Inp = new Task_3_5_res();
 		
-		Inp.InputDouble();
+		double e = Inp.InputDouble();
 		
 		
 		System.out.println("ВВЕДИТЕ ЧИСЛО n");
@@ -30,25 +28,21 @@ public class Task_3_5 {
 		
 		int n = Inp.InputInt();
 		
+		double sum = 0;
+		
+		double s = 0;
 		
 		for ( int i = 1; i <= n; i = i + 1 );
-				{
-					
-					
-					
-				}
+			      {
+			        s = Inp.member (n);
+			    	if ( Math.abs(s) >= e ) {
+			    	sum = sum + s;
+			    	}
+				  }
 		
-		
-		
-		
-		
-		
-		
-		
-		System.out.println("----------------------------------");
-		//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
-		System.out.println("----------------------------------");
-
+		System.out.println("-------------------------------------------------");
+		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + sum);
+		System.out.println("-------------------------------------------------");
 	}
 
 }
