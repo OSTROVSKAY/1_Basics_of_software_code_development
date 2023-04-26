@@ -1,11 +1,11 @@
 
 // 4. Составить программу нахождения произведения квадратов первых двухсот чисел.
 
-package Test_3_4;
+package Task_3_4;
 
 import java.math.BigInteger;
 
-public class Test_3_4 {
+public class Task_3_4 {
 
 	public static void main(String[] args) {
 		
