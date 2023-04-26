@@ -25,7 +25,7 @@ public class Test_3_4 {
 		// Вычисление произведение квадратов первых двухсот чисел
 		
 		for ( int i = A; i <= B; i++ )
-           { 
+			{ 
 			
 			YY = BigInteger.valueOf(i*i);
 			
