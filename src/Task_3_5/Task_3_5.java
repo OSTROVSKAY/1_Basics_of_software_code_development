@@ -22,7 +22,6 @@ public class Task_3_5 {
 		
 		double e = Inp.InputDouble();
 		
-		
 		System.out.println("ВВЕДИТЕ ЧИСЛО n");
 		System.out.println("---------------");
 		
@@ -30,19 +29,26 @@ public class Task_3_5 {
 		
 		double sum = 0;
 		
-		double s = 0;
+		double sum1 = 0;
 		
-		for ( int i = 1; i <= n; i = i + 1 );
-			      {
-			        s = Inp.member (n);
-			    	if ( Math.abs(s) >= e ) {
-			    	sum = sum + s;
-			    	}
-				  }
+		int i = 0;
 		
-		System.out.println("-------------------------------------------------");
-		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + sum);
-		System.out.println("-------------------------------------------------");
+		for ( i = 0; i <= n; i = i + 1 )
+			    {
+			      sum1 = Inp.member (i); 
+			      
+			      System.out.println("------------------------------------------------------------------------------------");
+			      System.out.println("НОМЕР ЧЛЕНА РЯДА :" + "  " + i + "      " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + sum1);
+			      System.out.println("------------------------------------------------------------------------------------");
+			    	 
+			    	     if ( Math.abs(sum1) >= e ) {
+			    	           sum = sum + sum1;
+			    	             }
+				 }
+		
+		System.out.println("----------------------------------------------");
+		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "    " + sum);
+		System.out.println("----------------------------------------------");
 	}
 
 }
