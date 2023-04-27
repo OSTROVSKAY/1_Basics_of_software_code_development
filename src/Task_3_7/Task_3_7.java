@@ -27,7 +27,20 @@ public class Task_3_7 {
 		
         Task_3_7_res Inp = new Task_3_7_res();
         
-		int M = Inp.InputInt();
+        int M = 0;
+        
+		do {
+			 M = Inp.InputInt();
+			
+			 if ( M <= 0 )
+             {
+           	  System.out.println("------------------------------------------");
+           	  System.out.println("Данные равны 0 или меньше 0. Введите снова");
+           	  System.out.println("------------------------------------------");
+             } 
+		
+           } while ( M <= 0 );
+		
 		int N = 0;
 		
 		do {
@@ -36,11 +49,20 @@ public class Task_3_7 {
 		
 		    N = Inp.InputInt();
 		        if (M >= N )
-		        {
+		           {
 		        	System.out.println("M больше или равно N");
 		        	System.out.println("--------------------");
 		        	System.out.println("Введие данные заново");
-		        }
+		        	System.out.println("--------------------");
+		           }
+		        
+		        if ( N <= 0 )
+                 {
+              	  System.out.println("------------------------------------------");
+              	  System.out.println("Данные равны 0 или меньше 0. Введите снова");
+              	  System.out.println("------------------------------------------");
+                 } 
+		        
 		} while ( M >= N );
 		
 		
@@ -50,9 +72,8 @@ public class Task_3_7 {
 		     m и n вводятся с клавиатуры.
 		*/
 		
-		
 		for ( double i = M; i <= N;  i = i + 1 )
-		           {
+		         {
 			        System.out.println("--------------------------------");
 		            System.out.println("Число : " + i);
 			        System.out.println("--------------------------------");
@@ -66,7 +87,7 @@ public class Task_3_7 {
 			    	    	          System.out.println( "Делитель : " + j + "   "  + "Частное : " + div );
 			    	               }
 			            }
-		            }
+		          }
 		System.out.println("-------------------------------");
 		
 	}

@@ -7,7 +7,6 @@ public class Task_3_7_res {
 	public int InputInt() {
 		  
 	      int check = 1;
-	      int check1 = 0;
 	      int x  = 0;
 	     
 	      do {
@@ -16,28 +15,21 @@ public class Task_3_7_res {
                String xx = scanner.nextLine();
      
                check = 1;
-               check1 = 1;
-     
+         
                       try {
                     	   x = Integer.parseInt(xx);
                           } 
                             catch (NumberFormatException e) {
-                            check1 = 1;
+                            
              	            check = 0;
          	                System.out.println("------------------------------------------");
          	                System.out.println("Данные введены не правильно. Введите снова");
+         	                System.out.println("------------------------------------------");
                           }
-                      
-                      if ( x <= 0 )
-                      {
-                    	  System.out.println("------------------------------------------");
-                    	  System.out.println("Данные равны 0 или меньше 0. Введите снова");
-                    	  System.out.println("------------------------------------------");
-                      } 
                       
                 System.out.println("------------------------------");
      
-    } while ( (check == 0) | (x <= 0) );
+    } while ( check == 0 );
 		return x; 
   }
 	
