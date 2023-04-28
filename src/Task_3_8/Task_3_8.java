@@ -58,10 +58,12 @@ public class Task_3_8 {
 			     
 			   } while ( B < 0);
 		    
-		    
+		
+		    // Ввод первого массива
 		    ArrayList arrA = new ArrayList();
 		    arrA = Inp.numberEnter(A);
 		    
+		    // Ввод второго массива
 		    ArrayList arrB = new ArrayList();
 		    arrB = Inp.numberEnter(B);
 		    
@@ -73,8 +75,13 @@ public class Task_3_8 {
 		    System.out.println("----------------------------------------------------------------");
 		    System.out.println("----------------------------------------------------------------");
 		    
+		    /* 
+		       Даны два числа. Определить цифры, 
+		       входящие в запись как первого так и второго числа.
+		    */
+		    
 			int count = 0;
-		     
+			
 		    for ( int i = 0; i < arrA.size(); i++ )
 		        {
 		         for (  int j = 0; j < arrB.size(); j++ )
