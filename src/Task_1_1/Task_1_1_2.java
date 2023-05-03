@@ -22,31 +22,41 @@ public class Task_1_1_2 {
 		System.out.println("Введите значения : a, b, c");
 		System.out.println("----------------------------------");
 		
-		//System.out.print("Введите значения : a...........:");
+		Task_1_1_res Inp = new Task_1_1_res();
+		
+		
+		System.out.println("Введите значения : a...........:");
+		System.out.println("----------------------------------");
+		
 		// Получение консоли
         Console console = System.console();
         if(console!=null){
             // Считывание данных с консоли
-            String a1 = console.readLine("Введите значения : a...........:");
-            a = Double.parseDouble(a1);
+            // String a1 = console.readLine("Введите значения : a...........:");
+            // a = Double.parseDouble(a1);
+        	a = Inp.Input();
          }
 		System.out.println("----------------------------------");
 		
 		
-		//System.out.print("Введите значения : b...........:");
+		    System.out.println("Введите значения : b...........:");
+		    System.out.println("----------------------------------");
 		 if(console!=null){
 	            // Считывание данных с консоли
-	            String b1 = console.readLine("Введите значения : b...........:");
-	            b = Double.parseDouble(b1);
+	            // String b1 = console.readLine("Введите значения : b...........:");
+	            // b = Double.parseDouble(b1);
+			    b = Inp.Input();
 	        }
 		System.out.println("----------------------------------");
 		
 		
-		//System.out.print("Введите значения : c...........:");
+		    System.out.println("Введите значения : c...........:");
+		    System.out.println("----------------------------------");
 		if(console!=null){
-            // Считывание данных с консоли
-            String c1 = console.readLine("Введите значения : c...........:");
-            c = Double.parseDouble(c1);
+              // Считывание данных с консоли
+              // String c1 = console.readLine("Введите значения : c...........:");
+			  // c = Double.parseDouble(c1);
+              c = Inp.Input();
         }
 		 
 		System.out.println("----------------------------------");
