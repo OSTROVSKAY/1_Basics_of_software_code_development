@@ -22,22 +22,19 @@ public class Task_1_1 {
 		
 		System.out.println("Введите значения : a, b, c");
 		System.out.println("----------------------------------");
+		System.out.println("----------------------------------");
 		
 		System.out.println("Введите значение a : ");
 		System.out.println("----------------------------------");
 		a = Inp.Input();
-		System.out.println("----------------------------------");
-		
 		
 		System.out.println("Введите значение b : ");
 		System.out.println("----------------------------------");
 		b = Inp.Input();
-		System.out.println("----------------------------------");
 		
 		System.out.println("Введите значение c : ");
 		System.out.println("----------------------------------");
 		c = Inp.Input();
-		System.out.println("----------------------------------");
 		
 		// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c //
 		
@@ -45,8 +42,9 @@ public class Task_1_1 {
 		
 		// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c //
 		
+		System.out.println("--------------------------------------------");
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
-		System.out.println("----------------------------------");
+		System.out.println("--------------------------------------------");
 		
 	}
 

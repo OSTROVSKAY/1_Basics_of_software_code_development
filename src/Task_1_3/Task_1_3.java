@@ -16,6 +16,7 @@ public class Task_1_3 {
 		
 		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
+		System.out.println("----------------------------------");
 		
 		double x;
 		double y;
@@ -24,6 +25,7 @@ public class Task_1_3 {
 		Task_1_3_res Inp = new Task_1_3_res();
 		
 		System.out.println("Введите значения : x, y");
+		System.out.println("----------------------------------");
 		System.out.println("----------------------------------");
 		
 		System.out.println("Введите значение x : ");
@@ -39,8 +41,8 @@ public class Task_1_3 {
 		
 		z = ( (Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) ) * Math.tan(x*y);
 				
-		System.out.println("----------------------------------");
+		System.out.println("-----------------------------------------------");
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
-		System.out.println("----------------------------------");	
+		System.out.println("-----------------------------------------------");	
 	}
 }

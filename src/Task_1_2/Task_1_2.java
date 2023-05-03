@@ -30,6 +30,7 @@ public class Task_1_2 {
 		System.out.println("Введите значение a : ");
 		System.out.println("----------------------------------");
 		a = Inp.Input();
+		System.out.println("----------------------------------");
 		
 		System.out.println("Введите значение b : ");
 		System.out.println("----------------------------------");
@@ -45,9 +46,9 @@ public class Task_1_2 {
 		
 		z = ( b + Math.sqrt(Math.pow(b,2) + 4*a*c) ) / (2*a) -  Math.pow(a,3)*c + Math.pow(b,-2);
 		
-		System.out.println("----------------------------------");
+		System.out.println("-------------------------------------------------");
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
-		System.out.println("----------------------------------");
+		System.out.println("-------------------------------------------------");
 		
 	}
 
