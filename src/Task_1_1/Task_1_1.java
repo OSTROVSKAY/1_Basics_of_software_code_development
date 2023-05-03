@@ -13,8 +13,6 @@ public class Task_1_1 {
 		System.out.println("----------------------------------");
 		System.out.println("----------------------------------");
 		
-		Scanner scanner = new Scanner(System.in);
-		
 		double z;
 		double a;
 		double b;
@@ -25,18 +23,18 @@ public class Task_1_1 {
 		System.out.println("Введите значения : a, b, c");
 		System.out.println("----------------------------------");
 		
-		System.out.println("Введите значения : a...........:");
+		System.out.println("Введите значения a : ");
 		System.out.println("----------------------------------");
 		a = Inp.Input();
 		System.out.println("----------------------------------");
 		
 		
-		System.out.println("Введите значения : b...........:");
+		System.out.println("Введите значения b : ");
 		System.out.println("----------------------------------");
 		b = Inp.Input();
 		System.out.println("----------------------------------");
 		
-		System.out.println("Введите значения : c...........:");
+		System.out.println("Введите значения c : ");
 		System.out.println("----------------------------------");
 		c = Inp.Input();
 		System.out.println("----------------------------------");
@@ -50,7 +48,6 @@ public class Task_1_1 {
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
 		System.out.println("----------------------------------");
 		
-		scanner.close();
 	}
 
 }

@@ -25,7 +25,7 @@ public class Task_1_1_2 {
 		Task_1_1_res Inp = new Task_1_1_res();
 		
 		
-		System.out.println("Введите значения : a...........:");
+		System.out.println("Введите значения a : ");
 		System.out.println("----------------------------------");
 		
 		// Получение консоли
@@ -39,7 +39,7 @@ public class Task_1_1_2 {
 		System.out.println("----------------------------------");
 		
 		
-		    System.out.println("Введите значения : b...........:");
+		    System.out.println("Введите значения b : ");
 		    System.out.println("----------------------------------");
 		 if(console!=null){
 	            // Считывание данных с консоли
@@ -50,7 +50,7 @@ public class Task_1_1_2 {
 		System.out.println("----------------------------------");
 		
 		
-		    System.out.println("Введите значения : c...........:");
+		    System.out.println("Введите значения c : ");
 		    System.out.println("----------------------------------");
 		if(console!=null){
               // Считывание данных с консоли
