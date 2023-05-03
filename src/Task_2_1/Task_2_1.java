@@ -13,6 +13,7 @@ public class Task_2_1 {
 		
 		System.out.println("ПРОГРАММА ОПРЕДЕЛЕНИЯ ВИДА ТРЕУГОЛЬНИКА");
 		System.out.println("---------------------------------------");
+		System.out.println("---------------------------------------");
 		
 		double A;
 		double B;
