@@ -23,18 +23,18 @@ public class Task_1_1 {
 		System.out.println("Введите значения : a, b, c");
 		System.out.println("----------------------------------");
 		
-		System.out.println("Введите значения a : ");
+		System.out.println("Введите значение a : ");
 		System.out.println("----------------------------------");
 		a = Inp.Input();
 		System.out.println("----------------------------------");
 		
 		
-		System.out.println("Введите значения b : ");
+		System.out.println("Введите значение b : ");
 		System.out.println("----------------------------------");
 		b = Inp.Input();
 		System.out.println("----------------------------------");
 		
-		System.out.println("Введите значения c : ");
+		System.out.println("Введите значение c : ");
 		System.out.println("----------------------------------");
 		c = Inp.Input();
 		System.out.println("----------------------------------");

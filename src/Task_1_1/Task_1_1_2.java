@@ -25,36 +25,36 @@ public class Task_1_1_2 {
 		Task_1_1_res Inp = new Task_1_1_res();
 		
 		
-		System.out.println("Введите значения a : ");
+		System.out.println("Введите значение a : ");
 		System.out.println("----------------------------------");
 		
 		// Получение консоли
         Console console = System.console();
         if(console!=null){
             // Считывание данных с консоли
-            // String a1 = console.readLine("Введите значения : a...........:");
+            // String a1 = console.readLine("Введите значение : a...........:");
             // a = Double.parseDouble(a1);
         	a = Inp.Input();
          }
 		System.out.println("----------------------------------");
 		
 		
-		    System.out.println("Введите значения b : ");
+		    System.out.println("Введите значение b : ");
 		    System.out.println("----------------------------------");
 		 if(console!=null){
 	            // Считывание данных с консоли
-	            // String b1 = console.readLine("Введите значения : b...........:");
+	            // String b1 = console.readLine("Введите значение : b...........:");
 	            // b = Double.parseDouble(b1);
 			    b = Inp.Input();
 	        }
 		System.out.println("----------------------------------");
 		
 		
-		    System.out.println("Введите значения c : ");
+		    System.out.println("Введите значение c : ");
 		    System.out.println("----------------------------------");
 		if(console!=null){
               // Считывание данных с консоли
-              // String c1 = console.readLine("Введите значения : c...........:");
+              // String c1 = console.readLine("Введите значение : c...........:");
 			  // c = Double.parseDouble(c1);
               c = Inp.Input();
         }
