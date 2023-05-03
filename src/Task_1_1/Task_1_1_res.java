@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Task_1_1_res {
 	
+	// Ввод данных
+	
 	 public double Input () {
 		  
 	      int check = 1;
