@@ -17,14 +17,14 @@ public class Task_3_8 {
 		System.out.println("--------------------------------------------------------------------------------");
 		
 		System.out.println("Введите значения двух чисел : A, B");
-		System.out.println("----------------------------------");
-		System.out.println("----------------------------------");
+		System.out.println("-----------------------------------");
+		System.out.println("-----------------------------------");
 		
 		Task_3_8_res Inp = new Task_3_8_res();
 		
 		// Ввод первого числа
 		System.out.println("Введите значение числа : A");
-		System.out.println("--------------------------");
+		System.out.println("---------------------------");
 		
 		 int A = 0;
 		 
@@ -42,7 +42,7 @@ public class Task_3_8 {
 		 
 		    // Ввод второго числа
 		    System.out.println("Введите значение числа : B");
-			System.out.println("--------------------------");
+			System.out.println("---------------------------");
 			
 		    int B = 0;
 		

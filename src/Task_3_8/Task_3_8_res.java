@@ -9,9 +9,10 @@ public class Task_3_8_res {
 		  
 	      int check = 1;
 	      int x  = 0;
+	      
+	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		       Scanner scanner = new Scanner(System.in);
 		       System.out.print("Введите Данные :.............:" + "  ");
                String xx = scanner.nextLine();
    
@@ -35,14 +36,17 @@ public class Task_3_8_res {
    }
 	
 	
-	
 	public  ArrayList numberEnter(int a){
+		
         ArrayList<Integer> array = new ArrayList<Integer>();
+        
         while(a > 0){
+        	
             int i = 0;
             array.add(i, a % 10);
             a = a / 10;
             i++;
+            
         }
         return array;
     }
