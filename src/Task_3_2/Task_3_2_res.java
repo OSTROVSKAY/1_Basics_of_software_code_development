@@ -1,3 +1,4 @@
+
 package Task_3_2;
 
 import java.util.Scanner;
@@ -8,10 +9,12 @@ public class Task_3_2_res {
 	  
 	      int check = 1;
 	      double x  = 0;
+	      
+	      Scanner scanner = new Scanner(System.in);
 	     
-	      do {
-		        Scanner scanner = new Scanner(System.in);
-		        System.out.print("Введите Данные :.............:" + "  ");
+	      do {  
+	    	    System.out.println("------------------------------");
+		        System.out.print("Введите Данные :.............: " + " ");
                 String xx = scanner.nextLine();
          
                 check = 1;
@@ -23,8 +26,9 @@ public class Task_3_2_res {
                  	            check = 0;
              	                System.out.println("------------------------------------------");
              	                System.out.println("Данные введены не правильно. Введите снова");
+             	                System.out.println("------------------------------------------");
                               }
-         System.out.println("------------------------------------------");
+         System.out.println("------------------------------");
         } while ( check == 0 );
 		return x; 
     }
@@ -39,13 +43,11 @@ public class Task_3_2_res {
 		        if( i > 2 ) { y = i; }
 		           else { y = -i; }
 		        
-		        System.out.println("---------------------------------------------------------------------------------");
-				System.out.println("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО :" + "   " + i + "        " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + y);
-				System.out.println("---------------------------------------------------------------------------------");
+		        System.out.println("------------------------------------------------------------------------------------");
+				System.out.println("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : " + "  " + i + "   ||   " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + y);
+				System.out.println("------------------------------------------------------------------------------------");
 		    }
      }
-  
- 
 }
 
 
