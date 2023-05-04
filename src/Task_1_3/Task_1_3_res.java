@@ -11,13 +11,14 @@ public class Task_1_3_res {
 		  
 	      int check = 1;
 	      double x  = 0;
+	      
+	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		        Scanner scanner = new Scanner(System.in);
 		        System.out.print("Введите Данные :.............:" + "  ");
                 String xx = scanner.nextLine();
      
-            check = 1;
+                check = 1;
      
                       try {
                             x = Double.parseDouble(xx);
