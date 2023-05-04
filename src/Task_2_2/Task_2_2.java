@@ -1,5 +1,7 @@
 
-// 2. Найти max { min(a, b), min(c, d) }
+/*
+    2. Найти max { min(a, b), min(c, d) }
+*/
 
 package Task_2_2;
 
@@ -10,33 +12,109 @@ public class Task_2_2 {
 	public static void main(String[] args) {
 		
 		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ ЗНАЧЕНИЯ ВЫРАЖЕНИЯ");
-		System.out.println("----------------------------------");
+		System.out.println("---------------------------------------");
+		System.out.println("---------------------------------------");
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		double a;
-		double b;
-		double c;
-		double d;
+		double a = 0;
+		double b = 0;
+		double c = 0;
+		double d = 0;
 		
 		System.out.println("Введите значения : a, b, c, d");
-		System.out.println("----------------------------------");
+		System.out.println("-----------------------------");
+		System.out.println("-----------------------------");
 		
-		System.out.print("Введите значения : a...........:");
-		a = scanner.nextDouble();
-		System.out.println("----------------------------------");
+		 int check = 1;
+		 
+		 System.out.println("Введите значение : a");
+		 System.out.println("--------------------");
+		 
+		  do {
+			  System.out.print("Введите Данные :.............:" + "  ");
+              String xx = scanner.nextLine();
+              check = 1;
 		
-		System.out.print("Введите значения : b...........:");
-		b = scanner.nextDouble();
-		System.out.println("----------------------------------");
+		      try {
+		    	   a = Double.parseDouble(xx);
+                  } 
+                    catch (NumberFormatException e) {
+    	            check = 0;
+	                System.out.println("------------------------------------------");
+	                System.out.println("Данные введены не правильно. Введите снова");
+	                System.out.println("------------------------------------------");
+                 }
+                 System.out.println("----------------------------------");
+		  
+		  } while ( check == 0);
 		
-		System.out.print("Введите значения : c...........:");
-		c = scanner.nextDouble();
-		System.out.println("----------------------------------");
 		
-		System.out.print("Введите значения : d...........:");
-		d = scanner.nextDouble();
-		System.out.println("----------------------------------");
+		System.out.println("Введите значение : b");
+		System.out.println("--------------------");
+		
+		  do {
+			  System.out.print("Введите Данные :.............:" + "  ");
+              String xx = scanner.nextLine();
+              check = 1;
+		
+		      try {
+		    	   b = Double.parseDouble(xx);
+                  } 
+                    catch (NumberFormatException e) {
+    	            check = 0;
+	                System.out.println("------------------------------------------");
+	                System.out.println("Данные введены не правильно. Введите снова");
+	                System.out.println("------------------------------------------");
+                 }
+                 System.out.println("----------------------------------");
+		  
+		  } while ( check == 0 );
+		
+		
+		System.out.println("Введите значение : c");
+		System.out.println("--------------------");
+		 
+		do {
+			 System.out.print("Введите Данные :.............:" + "  ");
+             String xx = scanner.nextLine();
+             check = 1;
+		
+		     try {
+		    	   c = Double.parseDouble(xx);
+                  } 
+                    catch (NumberFormatException e) {
+    	            check = 0;
+	                System.out.println("------------------------------------------");
+	                System.out.println("Данные введены не правильно. Введите снова");
+	                System.out.println("------------------------------------------");
+                 }
+                 System.out.println("----------------------------------");
+		  
+		  } while ( check == 0);
+		
+		
+		System.out.println("Введите значение : d");
+		System.out.println("--------------------");
+		
+		  do {
+			  System.out.print("Введите Данные :.............:" + "  ");
+              String xx = scanner.nextLine();
+              check = 1;
+		
+		      try {
+		    	   d = Double.parseDouble(xx);
+                  } 
+                    catch (NumberFormatException e) {
+    	            check = 0;
+	                System.out.println("------------------------------------------");
+	                System.out.println("Данные введены не правильно. Введите снова");
+	                System.out.println("------------------------------------------");
+                 }
+                 System.out.println("----------------------------------");
+		  
+		  } while ( check == 0);
+		
 		
 		// 1. Найти max { min(a, b), min(c, d) }
 		
