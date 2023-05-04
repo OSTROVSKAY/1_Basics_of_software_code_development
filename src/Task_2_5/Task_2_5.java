@@ -1,5 +1,7 @@
 
-// 5. Вычислить значение функции:
+/*
+   5. Вычислить значение функции.
+*/
 
 package Task_2_5;
 
@@ -11,7 +13,6 @@ public class Task_2_5 {
 		
 		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
-		System.out.println("----------------------------------");
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -20,11 +21,13 @@ public class Task_2_5 {
 		
 		int check = 1;
 		
-		System.out.println("Введите значения : x");
-		System.out.println("----------------------------------");
+		System.out.println("--------------------");
+		System.out.println("Введите значение : x");
+		System.out.println("--------------------");
 		
 		 do {
-	            System.out.print("Введите значения : x............:");
+			    System.out.println("---------------------------------");
+	            System.out.print("Введите значение : x............: " + " ");
 	            String xx = scanner.nextLine();
 	            
 	            check = 1;
@@ -33,27 +36,36 @@ public class Task_2_5 {
 	                  x = Double.parseDouble(xx);
 	                     } catch (NumberFormatException e) {
 	                    	                                 check = 0;
-	                	                                     System.out.println("----------------------------------------------------------------");
+	                	                                     System.out.println("-------------------------------------------");
 	                	                                     System.out.println("Данные введены не правильно. Введите снова");
+	                	                                     System.out.println("-------------------------------------------");
 	                                                       }
-	            System.out.println("----------------------------------------------------------------");
 	           }
 	        	
 	     while (check == 0); 
 		 
-		                     // 5. Вычисление значение функции :
-		 if (x > 3)
-		    { 
-			  y = 1 / ( Math.pow(x,3) + 6 );
-		    }
+		                     // Вычисление значение функции :
+		 
+		 if ( x > 3  &  ( Math.pow(x,3) + 6 ) == 0 ) {
+			  System.out.println("---------------------------------");
+		      System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ НЕЛЬЗЯ ВЫЧИСЛИТЬ");
+			  System.out.println("---------------------------------");
+		 }
+		 
+		 if ( x > 3  &  ( Math.pow(x,3) + 6 ) != 0 )
+		      { 
+			    y = 1 / ( Math.pow(x,3) + 6 );
+		      }
 		         else
 		             {
-			            y = Math.pow(x,2) - 3*x + 9;
+			           y = Math.pow(x,2) - 3*x + 9;
 		             }
 		 
-		System.out.println("----------------------------------");
-		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + y);
-		System.out.println("----------------------------------");
+		System.out.println("-------------------------------------------------");
+		System.out.println("-------------------------------------------------");
+		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + " " + y);
+		System.out.println("-------------------------------------------------");
+		System.out.println("-------------------------------------------------");
 		
 		scanner.close();
 	}
