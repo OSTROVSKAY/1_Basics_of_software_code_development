@@ -25,11 +25,11 @@ public class Task_1_6 {
 		System.out.println("----------------------------------");
 		
 		
-		System.out.println("Введите значения : X...........:");
+		System.out.println("Введите значение : X...........:");
 		System.out.println("--------------------------------");
 		X = Inp.Input();
 		
-		System.out.println("Введите значения : Y...........:");
+		System.out.println("Введите значение : Y...........:");
 		System.out.println("--------------------------------");
 		Y = Inp.Input();
 		
