@@ -1,3 +1,4 @@
+
 package Task_3_5;
 
 import java.util.Scanner;
@@ -8,10 +9,12 @@ public class Task_3_5_res {
 		  
 	      int check = 1;
 	      double x  = 0;
+	      
+	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		        Scanner scanner = new Scanner(System.in);
-		        System.out.print("Введите Данные :.............:" + "  ");
+	    	    System.out.println("------------------------------");
+		        System.out.print("Введите Данные :.............: " + "  ");
                 String xx = scanner.nextLine();
         
                 check = 1;
@@ -23,6 +26,7 @@ public class Task_3_5_res {
                 	            check = 0;
             	                System.out.println("------------------------------------------");
             	                System.out.println("Данные введены не правильно. Введите снова");
+            	                System.out.println("------------------------------------------");
                              }
         System.out.println("------------------------------");
        
@@ -36,9 +40,11 @@ public class Task_3_5_res {
 	      int check = 1;
 	      int x  = 0;
 	     
+	      Scanner scanner = new Scanner(System.in);
+	      
 	      do {
-		       Scanner scanner = new Scanner(System.in);
-		       System.out.print("Введите Данные :.............:" + "  ");
+	    	   System.out.println("------------------------------");
+		       System.out.print("Введите Данные :.............: " + "  ");
                String xx = scanner.nextLine();
        
                check = 1;
@@ -50,6 +56,7 @@ public class Task_3_5_res {
                	            check = 0;
            	                System.out.println("------------------------------------------");
            	                System.out.println("Данные введены не правильно. Введите снова");
+           	                System.out.println("------------------------------------------");
                             }
        System.out.println("------------------------------");
        
