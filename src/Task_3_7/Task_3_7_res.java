@@ -8,12 +8,14 @@ public class Task_3_7_res {
 		  
 	      int check = 1;
 	      int x  = 0;
+	      
+	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		       Scanner scanner = new Scanner(System.in);
-		       System.out.print("Введите Данные :.............:" + "  ");
-               String xx = scanner.nextLine();
-     
+		       System.out.print("Введите Данные :.............: " + "  ");
+		       String xx = scanner.nextLine();
+		       System.out.println("------------------------------");
+              
                check = 1;
          
                       try {
@@ -27,7 +29,7 @@ public class Task_3_7_res {
          	                System.out.println("------------------------------------------");
                           }
                       
-                System.out.println("------------------------------");
+                 System.out.println("------------------------------");
      
     } while ( check == 0 );
 		return x; 
