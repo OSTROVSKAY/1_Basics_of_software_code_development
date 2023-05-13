@@ -8,7 +8,6 @@
 package Task_1_3;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Task_1_3 {
 
@@ -32,10 +31,20 @@ public class Task_1_3 {
 		System.out.println("----------------------------------");
 		x = Inp.Input();
 		
-		System.out.println("Введите значение y : ");
-		System.out.println("----------------------------------");
-		y = Inp.Input();
 		
+		do {
+		    System.out.println("Введите значение y : ");
+		    System.out.println("----------------------------------");
+		    y = Inp.Input();
+		    
+		    if ( (Math.cos(x) - Math.sin(y)) == 0 ) {
+		    	 
+		    	System.out.println("----------------------------------------------------------");
+		    	System.out.println("Выражение cos x  -  sin y равно 0. Введите данные снова : ");
+				System.out.println("----------------------------------------------------------");
+		    }
+		    
+		} while ( (Math.cos(x) - Math.sin(y)) == 0 );
 		
      /* Вычислить значение выражения по формуле (все переменные принимают действительные значения) */
 		
