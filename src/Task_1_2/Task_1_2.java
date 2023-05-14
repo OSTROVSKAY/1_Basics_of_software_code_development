@@ -23,51 +23,56 @@ public class Task_1_2 {
 		
 		Task_1_2_res Inp = new Task_1_2_res();
 		
-		System.out.println("Введите значения : a, b, c");
-		System.out.println("----------------------------------");
-		System.out.println("----------------------------------");
+		do {
+		      System.out.println("Введите значения : a, b, c");
+              System.out.println("----------------------------------");
+		      System.out.println("----------------------------------");
 		
-		System.out.println("Введите значение a : ");
-		System.out.println("----------------------------------");
-		System.out.println("a должно быть не равно 0 :");
-		System.out.println("----------------------------------");
+		      System.out.println("Введите значение a : ");
+		      System.out.println("----------------------------------");
+		      System.out.println("a должно быть не равно 0 :");
+		      System.out.println("----------------------------------");
 		  
-		do {
-		     a = Inp.Input();
+		    do {
+		         a = Inp.Input();
 		     
-		     if ( a == 0 ) {
+		         if ( a == 0 ) {
+		    	                System.out.println("--------------------------------");
+		 		                System.out.println("a равно 0. Введите данные снова.");
+		 		                System.out.println("--------------------------------");
+		                       }
 		    	 
-		    	System.out.println("--------------------------------");
-		 		System.out.println("a равно 0. Введите данные снова.");
-		 		System.out.println("--------------------------------");
-		     }
-		    	 
-		   }   while ( a == 0 );
+		       } while ( a == 0 );
 		
-		System.out.println("----------------------------------");
+		       System.out.println("----------------------------------");
 		
-		System.out.println("Введите значение b : ");
-		System.out.println("----------------------------------");
-		System.out.println("b должно быть не равно 0 :");
-		System.out.println("----------------------------------");
+		       System.out.println("Введите значение b : ");
+		       System.out.println("----------------------------------");
+		       System.out.println("b должно быть не равно 0 :");
+		       System.out.println("----------------------------------");
 		
-		do {
-		    b = Inp.Input();
+		   do {
+		        b = Inp.Input();
 		    
-		    if ( b == 0 ) {
-		    	 
-		    	System.out.println("--------------------------------");
-		 		System.out.println("b равно 0. Введите данные снова.");
-		 		System.out.println("--------------------------------");
-		     }
-		}  while ( b == 0 );
+		        if ( b == 0 ) { 
+		    	               System.out.println("--------------------------------");
+		 		               System.out.println("b равно 0. Введите данные снова.");
+		 		               System.out.println("--------------------------------");
+		                      }
+		       }  while ( b == 0 );
 		    
-	
-		System.out.println("Введите значение c : ");
-		System.out.println("----------------------------------");
-		c = Inp.Input();
-		System.out.println("----------------------------------");
-		
+		        System.out.println("Введите значение c : ");
+		        System.out.println("----------------------------------");
+		        c = Inp.Input();
+		        System.out.println("----------------------------------");
+		        
+		        if (Math.sqrt(Math.pow(b,2) + 4*a*c) == 0) {
+		        	 System.out.println("-------------------------------------------------------------------------------------");
+		        	 System.out.println("Не может быть получен Квадратный корень из отрицательно числа. Введите a, b и c снова");
+		        	 System.out.println("-------------------------------------------------------------------------------------");
+		             }
+		      
+		} while (Math.sqrt(Math.pow(b,2) + 4*a*c) == 0);
 		// Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 	    // Функция содержит вычисление квадратного корня, рациональную дробь, и отрицательную степень числа 
 		

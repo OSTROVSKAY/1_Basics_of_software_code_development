@@ -10,7 +10,7 @@ public class Task_1_2_res {
 	 public double Input () {
 		  
 	      int check = 1;
-	      double x  = 0;
+	      double x = 0;
 	     
 	      Scanner scanner = new Scanner(System.in);
 	      
