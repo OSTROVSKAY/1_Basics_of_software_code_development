@@ -37,9 +37,9 @@ public class Task_1_2 {
 		         a = Inp.Input();
 		     
 		         if ( a == 0 ) {
-		    	                System.out.println("--------------------------------");
-		 		                System.out.println("a равно 0. Введите данные снова.");
-		 		                System.out.println("--------------------------------");
+		                        System.out.println("--------------------------------");
+		                        System.out.println("a равно 0. Введите данные снова.");
+		                        System.out.println("--------------------------------");
 		                       }
 		    	 
 		       } while ( a == 0 );
