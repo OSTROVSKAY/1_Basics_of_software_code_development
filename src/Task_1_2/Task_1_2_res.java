@@ -16,7 +16,7 @@ public class Task_1_2_res {
 	      
 	      do {
 		        System.out.print("Введите Данные :.............: " + "  ");
-                String xx = scanner.nextLine();
+		        String xx = scanner.nextLine();
        
                 check = 1;
        
