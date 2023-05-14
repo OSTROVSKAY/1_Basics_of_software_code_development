@@ -55,9 +55,9 @@ public class Task_1_2 {
 		        b = Inp.Input();
 		    
 		        if ( b == 0 ) { 
-		    	               System.out.println("--------------------------------");
-		 		               System.out.println("b равно 0. Введите данные снова.");
-		 		               System.out.println("--------------------------------");
+		                       System.out.println("--------------------------------");
+		                       System.out.println("b равно 0. Введите данные снова.");
+		                       System.out.println("--------------------------------");
 		                      }
 		       }  while ( b == 0 );
 		    
