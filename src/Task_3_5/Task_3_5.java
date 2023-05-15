@@ -44,7 +44,7 @@ public class Task_3_5 {
 		
 		for ( i = 0; i <= n; i = i + 1 )
 			    {
-			      sum1 = Inp.member (i); 
+			      sum1 = Inp.member(i); 
 			      
 			      System.out.println("-------------------------------------------------------------------------------------");
 			      System.out.println("НОМЕР ЧЛЕНА РЯДА : " + "  " + i + "  ||  " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + sum1);
@@ -52,7 +52,7 @@ public class Task_3_5 {
 			    	 
 			    	     if ( Math.abs(sum1) >= e ) {
 			    	           sum = sum + sum1;
-			    	             }
+			    	         }
 				 }
 		
 		System.out.println("----------------------------------------------");

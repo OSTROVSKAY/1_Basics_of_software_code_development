@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Task_3_5_res {
 	
-	 public double InputDouble () {
+	 public double InputDouble() {
 		  
 	      int check = 1;
-	      double x  = 0;
+	      double x = 0;
 	      
 	      Scanner scanner = new Scanner(System.in);
 	     
@@ -35,10 +35,10 @@ public class Task_3_5_res {
    }
 	
 	
-	 public int InputInt () {
+	 public int InputInt() {
 		  
 	      int check = 1;
-	      int x  = 0;
+	      int x = 0;
 	     
 	      Scanner scanner = new Scanner(System.in);
 	      
