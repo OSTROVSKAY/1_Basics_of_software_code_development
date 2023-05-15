@@ -28,7 +28,7 @@ public class Task_3_1 {
 		
 		 do {   
 			    System.out.println("---------------------------------------");
-	            System.out.print("Введите данные :.............: " + " ");
+	            System.out.print("Введите данные :.............: " + "  ");
 	            String xx = scanner.nextLine();
 	            
 	            check = 1;
@@ -62,7 +62,7 @@ public class Task_3_1 {
 		 
 		    System.out.println("----------------------------------------");
 		    System.out.println("----------------------------------------");
-			System.out.println("ЗНАЧЕНИЕ СУММЫ ЧИСЕЛ РАВНО :" + "   " + y);
+			System.out.println("ЗНАЧЕНИЕ СУММЫ ЧИСЕЛ РАВНО : " + "  " + y);
 			System.out.println("----------------------------------------");
 			System.out.println("----------------------------------------");
 		
