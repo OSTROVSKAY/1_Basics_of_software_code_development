@@ -27,7 +27,7 @@ public class Task_2_5 {
 		
 		 do {
 			    System.out.println("---------------------------------");
-	            System.out.print("Введите значение : x............: " + " ");
+	            System.out.print("Введите значение : x............: " + "  ");
 	            String xx = scanner.nextLine();
 	            
 	            check = 1;
