@@ -37,7 +37,7 @@ public class Task_2_2 {
 				check = 1;
 				
 					try {
-							a = Double.parseDouble(xx);
+						a = Double.parseDouble(xx);
 						}
 					catch (NumberFormatException e) {
 						check = 0;
@@ -59,7 +59,7 @@ public class Task_2_2 {
 			check = 1;
 			
 				try {
-						b = Double.parseDouble(xx);
+					b = Double.parseDouble(xx);
 					} 
 				catch (NumberFormatException e) {
 					check = 0;
@@ -81,7 +81,7 @@ public class Task_2_2 {
 			check = 1;
 		
 			try {
-					c = Double.parseDouble(xx);
+				c = Double.parseDouble(xx);
 				} 
 					catch (NumberFormatException e) {
 					check = 0;
@@ -103,7 +103,7 @@ public class Task_2_2 {
 			check = 1;
 		
 			try {
-					d = Double.parseDouble(xx);
+				d = Double.parseDouble(xx);
 				} 
 					catch (NumberFormatException e) {
 					check = 0;
