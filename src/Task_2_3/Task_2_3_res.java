@@ -10,12 +10,12 @@ public class Task_2_3_res {
 	 public double Input () {
 		  
 	      int check = 1;
-	      double x  = 0;
+	      double x = 0;
 	      
 	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		        System.out.print("Введите Данные :.............:" + "  ");
+		        System.out.print("Введите Данные :.............: " + "  ");
                 String xx = scanner.nextLine();
               
                 check = 1;
