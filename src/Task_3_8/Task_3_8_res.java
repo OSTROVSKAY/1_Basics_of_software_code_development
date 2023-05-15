@@ -8,12 +8,12 @@ public class Task_3_8_res {
 	public int InputInt() {
 		  
 	      int check = 1;
-	      int x  = 0;
+	      int x = 0;
 	      
 	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {
-		       System.out.print("Введите Данные :.............:" + "  ");
+		       System.out.print("Введите Данные :.............: " + "  ");
                String xx = scanner.nextLine();
    
                check = 1;
