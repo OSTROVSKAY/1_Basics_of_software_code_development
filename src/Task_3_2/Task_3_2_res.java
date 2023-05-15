@@ -8,13 +8,13 @@ public class Task_3_2_res {
   public double Input () {
 	  
 	      int check = 1;
-	      double x  = 0;
+	      double x = 0;
 	      
 	      Scanner scanner = new Scanner(System.in);
 	     
 	      do {  
 	    	    System.out.println("------------------------------");
-		        System.out.print("Введите Данные :.............: " + " ");
+		        System.out.print("Введите Данные :.............: " + "  ");
                 String xx = scanner.nextLine();
          
                 check = 1;
@@ -44,7 +44,9 @@ public class Task_3_2_res {
 		           else { y = -i; }
 		        
 		        System.out.println("------------------------------------------------------------------------------------");
-				System.out.println("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : " + "  " + i + "   ||   " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + y);
+		        
+		        System.out.printf("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : %7.3f  ||  ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : %7.3f%n", i, y );
+		     // System.out.println("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : " + "  " + i + "   ||   " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + y);
 				System.out.println("------------------------------------------------------------------------------------");
 		    }
      }
