@@ -68,22 +68,23 @@ public class Task_3_7 {
 		     m и n вводятся с клавиатуры.
 		*/
 		
-		for ( double i = M; i <= N;  i = i + 1 )
+		for ( double i = M; i <= N; i = i + 1 )
 		         {
-			        System.out.println("-----------------------------------");
+			        System.out.println("----------------------------------------");
 		            System.out.println("Число : " + i);
-			        System.out.println("-----------------------------------");
+			        System.out.println("----------------------------------------");
 			
-			    for (  double j = 1; j <= i;  j = j + 1 )
+			    for (  double j = 1; j <= i; j = j + 1 )
 			            {
 			    	      double div = i / j;
 			    	    
 			    	          if ( (i % j == 0) & ( i != j ) & ( j != 1  ) )
 			    	               {
-			    	    	          System.out.println( "Делитель : " + j + "  ||  "  + "Частное : " + div );
+			    	        	     System.out.printf( "Делитель :  %5.1f  ||  Частное :  %5.1f%n", j, div );
+			    	    	      // System.out.println( "Делитель : " + j + "  ||  "  + "Частное : " + div );
 			    	               }
 			            }
 		          }
-		System.out.println("-----------------------------------");
+		System.out.println("----------------------------------------");
 	}
 }

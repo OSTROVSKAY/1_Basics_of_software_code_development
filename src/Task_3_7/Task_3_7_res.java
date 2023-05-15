@@ -1,3 +1,4 @@
+
 package Task_3_7;
 
 import java.util.Scanner;
@@ -7,7 +8,7 @@ public class Task_3_7_res {
 	public int InputInt() {
 		  
 	      int check = 1;
-	      int x  = 0;
+	      int x = 0;
 	      
 	      Scanner scanner = new Scanner(System.in);
 	     
