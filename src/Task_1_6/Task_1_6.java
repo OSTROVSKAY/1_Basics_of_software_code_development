@@ -20,21 +20,21 @@ public class Task_1_6 {
 			
 			double X;
 			double Y;
-		
+			
 			Task_1_6_res Inp = new Task_1_6_res();
-		
+			
 			System.out.println("Введите значения : X, Y");
 			System.out.println("----------------------------------");
 			System.out.println("----------------------------------");
-		
+			
 			System.out.println("Введите значение : X...........:");
 			System.out.println("--------------------------------");
 			X = Inp.Input();
-		
+			
 			System.out.println("Введите значение : Y...........:");
 			System.out.println("--------------------------------");
 			Y = Inp.Input();
-		
+			
 									// ПРИНАДЛЕЖНОСТЬ ТОЧКИ ЗАКРАШЕННОЙ ОБЛАСТИ
 			boolean log;
 			
@@ -54,25 +54,25 @@ public class Task_1_6 {
 				
 				check = (int)Inp.Input();
 				
-				if ( check < 0 | check > 1 ) 
+				if ( check < 0 | check > 1 )
 					{
-						System.out.println("------------------------------------------------");
-						System.out.println("Введеные данные не равны 0 или 1. Введите снова.");
-						System.out.println("------------------------------------------------");
+					System.out.println("------------------------------------------------");
+					System.out.println("Введеные данные не равны 0 или 1. Введите снова.");
+					System.out.println("------------------------------------------------");
 					}
-				
+					
 			} while ( check < 0 | check > 1 );
 			
 			try {
-					Thread.sleep(1500);
+				Thread.sleep(1500);
 				}
-					catch(InterruptedException ex) 
+					catch(InterruptedException ex)
 						{
-							System.out.println("-------------------------");
-							System.out.println("Ошибка в работе программы");
-							System.out.println("-------------------------");
+						System.out.println("-------------------------");
+						System.out.println("Ошибка в работе программы");
+						System.out.println("-------------------------");
 						}
-			
-		}  while ( check == 1 );
+						
+		} while ( check == 1 );
 	}
 }

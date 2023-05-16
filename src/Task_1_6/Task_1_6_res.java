@@ -21,8 +21,8 @@ public class Task_1_6_res {
 				check = 1;
 					
 					try {
-							x = Double.parseDouble(xx);
-						} 
+						x = Double.parseDouble(xx);
+						}
 							catch (NumberFormatException e) {
 								check = 0;
 								System.out.println("------------------------------------------");
@@ -32,6 +32,6 @@ public class Task_1_6_res {
 						System.out.println("--------------------------------");
 						
 			} while ( check == 0 );
-		return x; 
+		return x;
 		}
 	}
