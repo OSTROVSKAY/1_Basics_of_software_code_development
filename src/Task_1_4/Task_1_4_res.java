@@ -34,7 +34,7 @@ public class Task_1_4_res {
 							}
 				System.out.println("----------------------------------");
 			} while ( check == 0 );
-			return x; 
+			return x;
 		}
 		
 	}
