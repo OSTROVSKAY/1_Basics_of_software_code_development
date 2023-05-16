@@ -81,7 +81,7 @@ public class Task_3_7 {
 					if ( (i % j == 0) & ( i != j ) & ( j != 1  ) )
 						{
 						System.out.printf( "Делитель :  %5.1f  ||  Частное :  %5.1f%n", j, div );
-					// System.out.println( "Делитель : " + j + "  ||  "  + "Частное : " + div );
+						//System.out.println( "Делитель : " + j + "  ||  "  + "Частное : " + div );
 						}
 					}
 			}
