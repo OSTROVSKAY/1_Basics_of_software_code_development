@@ -36,18 +36,18 @@ public class Task_2_5 {
 					x = Double.parseDouble(xx);
 					} catch (NumberFormatException e) {
 					check = 0;
-						System.out.println("-------------------------------------------");
-						System.out.println("Данные введены не правильно. Введите снова");
-						System.out.println("-------------------------------------------");
+					System.out.println("-------------------------------------------");
+					System.out.println("Данные введены не правильно. Введите снова");
+					System.out.println("-------------------------------------------");
 					}
-				}while (check == 0);
+			}while (check == 0);
 									// Вычисление значение функции :
 			
 		if ( x > 3  &  ( Math.pow(x,3) + 6 ) == 0 ) {
 				System.out.println("---------------------------------");
 				System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ НЕЛЬЗЯ ВЫЧИСЛИТЬ");
 				System.out.println("---------------------------------");
-		}
+				}
 		
 		if ( x > 3  &  ( Math.pow(x,3) + 6 ) != 0 )
 				{
@@ -57,7 +57,7 @@ public class Task_2_5 {
 					{
 					y = Math.pow(x,2) - 3*x + 9;
 					}
-		
+					
 		System.out.println("-------------------------------------------------");
 		System.out.println("-------------------------------------------------");
 		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + " " + y);
