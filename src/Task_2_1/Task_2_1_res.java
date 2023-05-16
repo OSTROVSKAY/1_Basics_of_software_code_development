@@ -17,9 +17,9 @@ public class Task_2_1_res {
 		do	{
 			System.out.print("Введите Данные :.............: " + "  ");
 			String xx = scanner.nextLine();
-			
-				check = 1;
 				
+				check = 1;
+					
 						try {
 							x = Double.parseDouble(xx);
 							}
@@ -32,6 +32,6 @@ public class Task_2_1_res {
 				System.out.println("----------------------------------");
 				
 			} while ( check == 0 );
-			return x; 
+			return x;
 		}
 	}
