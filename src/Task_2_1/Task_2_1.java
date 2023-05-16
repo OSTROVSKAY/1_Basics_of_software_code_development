@@ -70,9 +70,9 @@ public class Task_2_1 {
 							}
 							
 							else {
-									System.out.println("----------------------------");
-									System.out.println("Треугольник не прямоугольный");
-									System.out.println("----------------------------");
+								System.out.println("----------------------------");
+								System.out.println("Треугольник не прямоугольный");
+								System.out.println("----------------------------");
 								 }
 						}
 						else
