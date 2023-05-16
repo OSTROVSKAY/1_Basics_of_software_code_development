@@ -40,7 +40,7 @@ public class Task_3_8 {
 				
 		} while ( A < 0 );
 			
-						// Ввод второго числа
+			// Ввод второго числа
 			System.out.println("Введите значение числа : B");
 			System.out.println("---------------------------");
 			
@@ -80,7 +80,7 @@ public class Task_3_8 {
 			входящие в запись как первого так и второго числа.
 			*/
 			
-						// Ввод третьего массива
+				// Ввод третьего массива
 			ArrayList<Integer> arrC = new ArrayList<Integer>();
 			
 			int count = 0;
