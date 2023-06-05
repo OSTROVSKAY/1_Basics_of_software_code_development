@@ -19,16 +19,16 @@ public class Task_1_2_res {
 			String xx = scanner.nextLine();
 			
 			check = 1;
-			
-						try{
-							x = Double.parseDouble(xx);
-							}
-							catch (NumberFormatException e) {
-								check = 0;
-								System.out.println("------------------------------------------");
-								System.out.println("Данные введены не правильно. Введите снова");
-								System.out.println("------------------------------------------");
-							}
+				
+				try{
+					x = Double.parseDouble(xx);
+					}
+					catch (NumberFormatException e) {
+						check = 0;
+						System.out.println("------------------------------------------");
+						System.out.println("Данные введены не правильно. Введите снова");
+						System.out.println("------------------------------------------");
+						}
 		System.out.println("----------------------------------");
 		} while ( check == 0 );
 			return x;
