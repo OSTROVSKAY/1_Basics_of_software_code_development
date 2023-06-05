@@ -1,10 +1,13 @@
-								
-								// КОНСОЛЬНОЕ ПРИЛОЖЕНИЕ ДЛЯ JAVA //
-							// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c //
-							
+
+/*
+	КОНСОЛЬНОЕ ПРИЛОЖЕНИЕ ДЛЯ JAVA
+	1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c
+*/
+
 package Task_1_1;
 	
 import java.io.Console;
+	
 import java.io.IOException;
 	
 public class Task_1_1_2 {
@@ -65,8 +68,9 @@ public class Task_1_1_2 {
 			
 					z = ( (a-3) * b/2 ) + c;
 					
-		System.out.println("--------------------------------------------");
-		System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
-		System.out.println("--------------------------------------------");
+		System.out.println("------------------------------------");
+		System.out.printf("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :  %6.3f%n", z);
+		//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
+		System.out.println("------------------------------------");
 	}
 }

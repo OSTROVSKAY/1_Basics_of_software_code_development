@@ -5,6 +5,11 @@ import java.util.Scanner;
 	
 public class Task_1_3_res {
 	
+/*
+	В Java Math.cos() возвращает косинус указанного в радианах double значения.
+	В Java Math.sin() возвращает синус указанного в радианах double значения.
+	В Java Math.tan() возвращает тангенс указанного в радианах double значения.
+*/
 	// Ввод данных
 	
 	public double Input () {
