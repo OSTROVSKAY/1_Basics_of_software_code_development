@@ -4,7 +4,7 @@ package Task_1_4;
 import java.util.Scanner;
 	
 public class Task_1_4_res {
-	
+		
 		// Ввод данных
 		
 		public double Input () {
@@ -24,9 +24,9 @@ public class Task_1_4_res {
 				check = 1;
 				
 				try {
-						x = Double.parseDouble(xx);
-					} 
-						catch (NumberFormatException e) {
+					x = Double.parseDouble(xx);
+					}
+					catch (NumberFormatException e) {
 							check = 0; // Проверка
 							System.out.println("------------------------------------------");
 							System.out.println("Данные введены не правильно. Введите снова");
