@@ -49,14 +49,14 @@ public class Task_3_8 {
 			do {
 				B = Inp.InputInt();
 				
-				if (  B < 0 )
+				if ( B < 0 )
 					{
 					System.out.println("----------------------------------------");
 					System.out.println("Введенные данные меньше 0. Введите снова");
 					System.out.println("----------------------------------------");
 					}
 					
-			} while ( B < 0);
+			} while ( B < 0 );
 			
 				// Ввод первого массива
 			ArrayList<Integer> arrA = new ArrayList<Integer>();
@@ -114,7 +114,7 @@ public class Task_3_8 {
 				
 				for ( int j = i; j < arrC.size(); j++) {
 					
-					if ( arrC.get(j) < min  ) {
+					if ( arrC.get(j) < min ) {
 						
 						min = arrC.get(j);
 						minind = j;
