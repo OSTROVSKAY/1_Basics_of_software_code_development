@@ -48,7 +48,7 @@ public class Task_1_6 {
 			System.out.println("ПРОДОЛЖИТЬ РАБОТУ ПРОГРАММЫ ?   1 - ДА. 0 - НЕТ");
 			System.out.println("-----------------------------------------------");
 			
-			do	{
+			do {
 				System.out.println("Введите : 1 - Да или 0 - Нет");
 				System.out.println("----------------------------");
 				
