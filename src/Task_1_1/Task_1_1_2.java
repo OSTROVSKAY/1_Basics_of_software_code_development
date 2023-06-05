@@ -22,55 +22,61 @@ public class Task_1_1_2 {
 		double b = 0;
 		double c = 0;
 		
-		System.out.println("Введите значения : a, b, c");
-		System.out.println("----------------------------------");
-		
 		Task_1_1_res Inp = new Task_1_1_res();
 		
+		int check = 0;
 		
-		System.out.println("Введите значение a : ");
-		System.out.println("----------------------------------");
-		
-		// Получение консоли
-		Console console = System.console();
-		if(console!=null){
-			// Считывание данных с консоли
-			// String a1 = console.readLine("Введите значение : a...........:");
-			// a = Double.parseDouble(a1);
-			a = Inp.Input();
-		}
-		System.out.println("----------------------------------");
-		
-		
+		do {
+			System.out.println("Введите значения : a, b, c");
+			System.out.println("----------------------------------");
+			
+			System.out.println("Введите значение a : ");
+			System.out.println("----------------------------------");
+			
+			// Получение консоли
+			Console console = System.console();
+				if(console!=null){
+				// Считывание данных с консоли
+				// String a1 = console.readLine("Введите значение : a...........:");
+				// a = Double.parseDouble(a1);
+				a = Inp.Input();
+				}
+			System.out.println("----------------------------------");
+			
+			
 			System.out.println("Введите значение b : ");
 			System.out.println("----------------------------------");
-		if(console!=null){
+				if(console!=null){
 				// Считывание данных с консоли
 				// String b1 = console.readLine("Введите значение : b...........:");
 				// b = Double.parseDouble(b1);
 				b = Inp.Input();
-			}
-		System.out.println("----------------------------------");
+				}
+			System.out.println("----------------------------------");
 			
 			
 			System.out.println("Введите значение c : ");
 			System.out.println("----------------------------------");
-		if(console!=null){
+				if(console!=null){
 				// Считывание данных с консоли
 				// String c1 = console.readLine("Введите значение : c...........:");
 				// c = Double.parseDouble(c1);
 				c = Inp.Input();
-		}
-		
+				}
+				
 		System.out.println("----------------------------------");
-		
+				
 					// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c //
-			
+				
 					z = ( (a-3) * b/2 ) + c;
 					
 		System.out.println("------------------------------------");
 		System.out.printf("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :  %6.3f%n", z);
 		//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
 		System.out.println("------------------------------------");
+		
+		check = Inp.Repeat();
+		
+		} while ( check == 1 );
 	}
 }
