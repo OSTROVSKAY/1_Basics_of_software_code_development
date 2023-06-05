@@ -19,7 +19,7 @@ public class Task_2_3_res {
 			String xx = scanner.nextLine();
 			
 			check = 1;
-				
+					
 					try {
 						x = Double.parseDouble(xx);
 						}

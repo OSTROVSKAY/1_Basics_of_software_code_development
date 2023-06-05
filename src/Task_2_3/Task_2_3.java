@@ -75,18 +75,20 @@ public class Task_2_3 {
 							double div1 = ( y3 - y1 ) / ( y2 - y1 );
 							double div2 = ( x3 - x1 ) / ( x2 - x1 );
 							
-							System.out.println("Деление 1 :" + "  " + div1);
-							System.out.println("----------------------------------");
-							System.out.println("Деление 2 :" + "  " + div2);
-							System.out.println("----------------------------------");
-							System.out.println("----------------------------------");
+							System.out.printf("Деление 1 : %6.3f%n", div1);
+							// System.out.println("Деление 1 :" + "  " + div1);
+							System.out.println("--------------------");
+							System.out.printf("Деление 2 : %6.3f%n", div2);
+							// System.out.println("Деление 2 :" + "  " + div2);
+							System.out.println("--------------------");
+							System.out.println("--------------------");
 						}
-							else 
+							else
 									if ( ( ( y2 - y1 ) == 0 ) | ( ( x2 - x1 ) == 0 ) )
 										{
-											System.out.println("-------------------------------------------------");
-											System.out.println("y2 - y1 = 0 ИЛИ x2 - x1 = 0  Введите данные снова");
-											System.out.println("-------------------------------------------------");
+										System.out.println("-------------------------------------------------");
+										System.out.println("y2 - y1 = 0 ИЛИ x2 - x1 = 0  Введите данные снова");
+										System.out.println("-------------------------------------------------");
 										}
 					
 				} while ( ( ( y2 - y1 ) == 0 ) | ( ( x2 - x1 ) == 0 ) );
@@ -130,7 +132,7 @@ public class Task_2_3 {
 					System.out.println("ПРОДОЛЖИТЬ РАБОТУ ПРОГРАММЫ ?   1 - ДА. 0 - НЕТ");
 					System.out.println("-----------------------------------------------");
 					
-					do	{
+					do {
 						System.out.println("Введите : 1 - Да или 0 - Нет");
 						System.out.println("----------------------------");
 						
