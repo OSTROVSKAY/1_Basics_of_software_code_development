@@ -29,6 +29,7 @@ public class Task_2_1 {
 			do {
 				System.out.println("Введите значение угла A...........:");
 				System.out.println("-----------------------------------");
+				
 				A = Task_2_1_res.Input();
 				
 				if ( A <= 0 )
@@ -37,12 +38,14 @@ public class Task_2_1 {
 					System.out.println("Введите значение угла треугольника заново");
 					System.out.println("-----------------------------------------");
 					}
+					
 			} while ( A <= 0 );
 			
 			
 			do {
 				System.out.println("Введите значение угла B...........:");
 				System.out.println("-----------------------------------");
+				
 				B = Task_2_1_res.Input();
 				
 				if ( B <= 0 )
@@ -97,7 +100,7 @@ public class Task_2_1 {
 						System.out.println("Введеные данные не равны 0 или 1. Введите снова.");
 						System.out.println("------------------------------------------------");
 						}
-					
+						
 				} while ( check < 0 | check > 1 );
 				
 				try {
@@ -109,8 +112,8 @@ public class Task_2_1 {
 							System.out.println("Ошибка в работе программы");
 							System.out.println("-------------------------");
 							}
-					
-				
+							
+							
 			} while ( check == 1 );
 		}
 	}

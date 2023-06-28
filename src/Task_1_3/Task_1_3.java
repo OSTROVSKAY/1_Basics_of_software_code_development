@@ -27,14 +27,18 @@ public class Task_1_3 {
 		
 		System.out.println("Введите значение x : ");
 		System.out.println("----------------------------------");
+		
 		x = Task_1_3_res.Input();
+		
 		x = Math.toRadians(x);
 		
 		
 		do {
 			System.out.println("Введите значение y : ");
 			System.out.println("----------------------------------");
+			
 			y = Task_1_3_res.Input();
+			
 			y = Math.toRadians(y);
 			
 			if ( (Math.cos(x) - Math.sin(y)) == 0 ) {

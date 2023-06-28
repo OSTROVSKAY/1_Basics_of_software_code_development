@@ -37,10 +37,12 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
+				
 				x1 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
+				
 				y1 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------");
@@ -49,10 +51,12 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
+				
 				x2 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
+				
 				y2 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------");
@@ -61,10 +65,12 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
+				
 				x3 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
+				
 				y3 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------------");
@@ -77,6 +83,7 @@ public class Task_2_3 {
 							System.out.printf("Деление 1 : %6.3f%n", div1);
 							// System.out.println("Деление 1 :" + "  " + div1);
 							System.out.println("--------------------");
+							
 							System.out.printf("Деление 2 : %6.3f%n", div2);
 							// System.out.println("Деление 2 :" + "  " + div2);
 							System.out.println("--------------------");
@@ -143,6 +150,7 @@ public class Task_2_3 {
 								System.out.println("Введеные данные не равны 0 или 1. Введите снова.");
 								System.out.println("------------------------------------------------");
 								}
+								
 					} while ( check < 0 | check > 1 );
 						
 						try {

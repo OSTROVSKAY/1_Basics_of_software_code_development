@@ -82,8 +82,9 @@ public class Task_3_7 {
 						System.out.printf( "Делитель :  %5.1f  ||  Частное :  %5.1f%n", j, div );
 						//System.out.println( "Делитель : " + j + "  ||  "  + "Частное : " + div );
 						}
-					}
+				}
 			}
+			
 		System.out.println("----------------------------------------");
 	}
 }

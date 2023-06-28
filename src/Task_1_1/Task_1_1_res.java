@@ -24,6 +24,7 @@ public class Task_1_1_res {
 					}
 						catch (NumberFormatException e) {
 							check = 0;
+							
 							System.out.println("------------------------------------------");
 							System.out.println("Данные введены не правильно. Введите снова");
 							System.out.println("------------------------------------------");
@@ -65,6 +66,7 @@ public class Task_1_1_res {
 				System.out.println("Ошибка в работе программы");
 				System.out.println("-------------------------");
 				}
+				
 		return check;
 	}
 }

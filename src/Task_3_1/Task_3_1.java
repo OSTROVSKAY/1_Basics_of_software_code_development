@@ -106,17 +106,17 @@ public class Task_3_1 {
 					}
 					
 		} while ( check < 0 | check > 1 );
-			
+		
 		try {
 			Thread.sleep(1500);
 			}
-				catch(InterruptedException ex)
-					{
-					System.out.println("-------------------------");
-					System.out.println("Ошибка в работе программы");
-					System.out.println("-------------------------");
-					}
-					
+			catch(InterruptedException ex)
+				{
+				System.out.println("-------------------------");
+				System.out.println("Ошибка в работе программы");
+				System.out.println("-------------------------");
+				}
+				
 		} while ( check1 == 1 );
 		
 		scanner.close();

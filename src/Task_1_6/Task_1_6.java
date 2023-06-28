@@ -27,10 +27,12 @@ public class Task_1_6 {
 			
 			System.out.println("Введите значение : X...........:");
 			System.out.println("--------------------------------");
+			
 			X = Task_1_6_res.Input();
 			
 			System.out.println("Введите значение : Y...........:");
 			System.out.println("--------------------------------");
+			
 			Y = Task_1_6_res.Input();
 			
 									// ПРИНАДЛЕЖНОСТЬ ТОЧКИ ЗАКРАШЕННОЙ ОБЛАСТИ

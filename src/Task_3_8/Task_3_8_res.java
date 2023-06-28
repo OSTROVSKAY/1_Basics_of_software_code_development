@@ -25,7 +25,6 @@ public class Task_3_8_res {
 						x = Integer.parseInt(xx);
 						}
 						catch (NumberFormatException e)
-							
 							{
 							check = 0;
 							

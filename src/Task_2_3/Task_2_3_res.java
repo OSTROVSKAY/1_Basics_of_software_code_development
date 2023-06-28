@@ -22,13 +22,14 @@ public class Task_2_3_res {
 					try {
 						x = Double.parseDouble(xx);
 						}
-							catch (NumberFormatException e) {
-								check = 0;
-								
-								System.out.println("------------------------------------------");
-								System.out.println("Данные введены не правильно. Введите снова");
-								System.out.println("------------------------------------------");
-						}
+						catch (NumberFormatException e) {
+							check = 0;
+							
+							System.out.println("------------------------------------------");
+							System.out.println("Данные введены не правильно. Введите снова");
+							System.out.println("------------------------------------------");
+							}
+							
 		System.out.println("----------------------------------");
 		
 		} while ( check == 0 );

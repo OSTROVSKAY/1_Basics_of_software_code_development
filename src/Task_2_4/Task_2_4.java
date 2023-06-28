@@ -39,11 +39,12 @@ public class Task_2_4 {
 		try {
 			A = Double.parseDouble(AA);
 			
-			} catch (NumberFormatException e) {
-				
+			} catch (NumberFormatException e)
+				{
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 				}
+				
 			System.out.println("------------------------------------------------------------------");
 			
 		} while (A <= 0);
@@ -56,11 +57,12 @@ public class Task_2_4 {
 		try {
 			B = Double.parseDouble(BB);
 			}
-			catch (NumberFormatException e) {
-				
+			catch (NumberFormatException e)
+				{
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 				}
+				
 			System.out.println("------------------------------------------------------------------");
 			
 		} while (B <= 0);
@@ -77,14 +79,15 @@ public class Task_2_4 {
 		try {
 			x = Double.parseDouble(xx);
 			}
-			catch (NumberFormatException e) {
-				
+			catch (NumberFormatException e)
+				{
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
-			}
+				}
+				
 			System.out.println("------------------------------------------------------------------");
 			
-		}while (x <= 0);
+		} while (x <= 0);
 		
 	do {
 		System.out.println("------------------------------------------------------------------");
@@ -94,12 +97,12 @@ public class Task_2_4 {
 		try {
 			y = Double.parseDouble(yy);
 			}
-			catch (NumberFormatException e) {
-				
+			catch (NumberFormatException e)
+				{
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
-			}
-			
+				}
+				
 			System.out.println("------------------------------------------------------------------");
 			
 		} while (y <= 0);
@@ -112,35 +115,36 @@ public class Task_2_4 {
 		try {
 			z = Double.parseDouble(zz);
 			}
-			catch (NumberFormatException e) {
-				
+			catch (NumberFormatException e)
+				{
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
-			}
+				}
+				
 			System.out.println("------------------------------------------------------------------");
 			
-		}while (z <= 0);
+		} while (z <= 0);
 									// Определение, пройдет ли кирпич через отверстие
 			
 		if ( (( A >= z) & ( B >= y )) | ((A >= y ) & ( B >= z)) | (( A >= x ) & ( B >= z )) | ((A >= z) & ( B >= x )) | (( A >= x) & ( B >= y )) | ((A >= y ) & ( B >= x)) )
-		
-		{
-		System.out.println("--------------------------------------------");
-		System.out.println("--------------------------------------------");
-		System.out.println("Кирпич пройдёт через прямоугольное отверстие");
-		System.out.println("--------------------------------------------");
-		System.out.println("--------------------------------------------");
-		}
-		
-		else
+			
 			{
-			System.out.println("-----------------------------------------------");
-			System.out.println("-----------------------------------------------");
-			System.out.println("Кирпич не пройдёт через прямоугольное отверстие");
-			System.out.println("-----------------------------------------------");
-			System.out.println("-----------------------------------------------");
+			System.out.println("--------------------------------------------");
+			System.out.println("--------------------------------------------");
+			System.out.println("Кирпич пройдёт через прямоугольное отверстие");
+			System.out.println("--------------------------------------------");
+			System.out.println("--------------------------------------------");
 			}
 			
+			else
+				{
+				System.out.println("-----------------------------------------------");
+				System.out.println("-----------------------------------------------");
+				System.out.println("Кирпич не пройдёт через прямоугольное отверстие");
+				System.out.println("-----------------------------------------------");
+				System.out.println("-----------------------------------------------");
+				}
+				
 		scanner.close();
 	}
 	

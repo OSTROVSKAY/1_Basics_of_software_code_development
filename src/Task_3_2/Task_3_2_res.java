@@ -23,7 +23,7 @@ public class Task_3_2_res {
 			try {
 				x = Double.parseDouble(xx);
 				}
-					catch (NumberFormatException e) {
+				catch (NumberFormatException e) {
 						
 						check = 0;
 						
@@ -45,7 +45,7 @@ public class Task_3_2_res {
 		double y = 0;
 		
 		for ( double i = a; i <= b; i = i + h )
-			{
+				{
 				if( i > 2 ) { y = i; }
 				
 				else { y = -i; }
@@ -55,6 +55,6 @@ public class Task_3_2_res {
 				System.out.printf("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : %7.3f  ||  ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : %7.3f%n", i, y );
 				//System.out.println("ЗНАЧЕНИЕ АРГУМЕНТА ФУНКЦИИ РАВНО : " + "  " + i + "   ||   " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + y);
 				System.out.println("------------------------------------------------------------------------------------");
-			}
+				}
 	}
 }

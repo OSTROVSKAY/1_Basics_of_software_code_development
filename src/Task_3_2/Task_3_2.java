@@ -35,6 +35,7 @@ public class Task_3_2 {
 		
 		do {
 			System.out.println("-----------------------");
+			
 			b = Task_3_2_res.Input();
 			
 			if ( a >= b )
@@ -56,6 +57,7 @@ public class Task_3_2 {
 			System.out.println("--------------------");
 			System.out.println("Введите значение : h");
 			System.out.println("--------------------");
+			
 			h = Task_3_2_res.Input();
 			
 			if ( h >= dif )

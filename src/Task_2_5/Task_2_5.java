@@ -36,15 +36,15 @@ public class Task_2_5 {
 				try {
 					x = Double.parseDouble(xx);
 					}
-					
-					catch (NumberFormatException e) {
-						
+					catch (NumberFormatException e)
+						{
 						check = 0;
+						
 						System.out.println("-------------------------------------------");
 						System.out.println("Данные введены не правильно. Введите снова");
 						System.out.println("-------------------------------------------");
-					}
-				
+						}
+						
 			} while (check == 0);
 									// Вычисление значение функции :
 			

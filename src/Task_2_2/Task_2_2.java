@@ -40,13 +40,14 @@ public class Task_2_2 {
 					try {
 						a = Double.parseDouble(xx);
 						}
-							catch (NumberFormatException e) {
+						catch (NumberFormatException e) {
 								
 								check = 0;
 								System.out.println("------------------------------------------");
 								System.out.println("Данные введены не правильно. Введите снова");
 								System.out.println("------------------------------------------");
-							}
+								}
+								
 					System.out.println("----------------------------------");
 					
 			} while ( check == 0);
@@ -64,14 +65,14 @@ public class Task_2_2 {
 				try {
 					b = Double.parseDouble(xx);
 					}
-					
-				catch (NumberFormatException e) {
-					
-					check = 0;
-					System.out.println("------------------------------------------");
-					System.out.println("Данные введены не правильно. Введите снова");
-					System.out.println("------------------------------------------");
-					}
+					catch (NumberFormatException e) {
+						
+						check = 0;
+						System.out.println("------------------------------------------");
+						System.out.println("Данные введены не правильно. Введите снова");
+						System.out.println("------------------------------------------");
+						}
+						
 				System.out.println("----------------------------------");
 				
 			} while ( check == 0 );
@@ -89,13 +90,14 @@ public class Task_2_2 {
 			try {
 				c = Double.parseDouble(xx);
 				}
-					catch (NumberFormatException e) {
+				catch (NumberFormatException e) {
 					
 					check = 0;
 					System.out.println("------------------------------------------");
 					System.out.println("Данные введены не правильно. Введите снова");
 					System.out.println("------------------------------------------");
-				}
+					}
+					
 			System.out.println("----------------------------------");
 			
 			} while ( check == 0);
@@ -113,13 +115,13 @@ public class Task_2_2 {
 			try {
 				d = Double.parseDouble(xx);
 				}
-					catch (NumberFormatException e) {
-					check = 0;
+				catch (NumberFormatException e) {
 					
+					check = 0;
 					System.out.println("------------------------------------------");
 					System.out.println("Данные введены не правильно. Введите снова");
 					System.out.println("------------------------------------------");
-				}
+					}
 					System.out.println("----------------------------------");
 					
 		} while ( check == 0);

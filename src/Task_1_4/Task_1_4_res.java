@@ -26,6 +26,7 @@ public class Task_1_4_res {
 				x = Integer.parseInt(xx);
 				}
 				catch (NumberFormatException e) {
+					
 					check = 0; // Проверка
 					
 					System.out.println("------------------------------------------");

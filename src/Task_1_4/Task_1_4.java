@@ -23,6 +23,7 @@ public class Task_1_4 {
 				
 				// Получение начального числа рандомным путём
 				int a = 100 + (int) (Math.random()*(999-100));
+				
 				int b = 100 + (int) (Math.random()*(999-100));
 				
 				double R = a + (double)b/1000;
@@ -39,6 +40,7 @@ public class Task_1_4 {
 				// System.out.println("Целая часть числа          :" + "  " + R2);
 				
 				double R1 = R*1000;
+				
 				R1=R1 % 1000;
 				
 				System.out.println("----------------------------------------");

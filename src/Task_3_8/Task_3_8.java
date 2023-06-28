@@ -58,6 +58,7 @@ public class Task_3_8 {
 			
 			// Ввод первого массива
 			ArrayList<Integer> arrA = new ArrayList<Integer>();
+			
 			arrA = Task_3_8_res.numberEnter(A);
 			
 			// Ввод второго массива

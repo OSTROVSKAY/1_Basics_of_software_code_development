@@ -25,6 +25,7 @@ public class Task_3_5 {
 		do {
 			System.out.println("ВВЕДИТЕ ЧИСЛО n :");
 			System.out.println("-----------------");
+			
 			n = Task_3_5_res.InputInt();
 			
 			if ( n <= 0 )
@@ -50,10 +51,10 @@ public class Task_3_5 {
 			System.out.println("НОМЕР ЧЛЕНА РЯДА : " + "  " + i + "  ||  " + "ЗНАЧЕНИЕ ФУНКЦИИ РАВНО : " + "  " + sum1);
 			System.out.println("-------------------------------------------------------------------------------------");
 				
-				if ( Math.abs(sum1) >= e ) {
-					
+				if ( Math.abs(sum1) >= e )
+					{
 					sum = sum + sum1;
-				}
+					}
 			}
 			
 		System.out.println("----------------------------------------------");

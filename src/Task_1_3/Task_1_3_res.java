@@ -27,14 +27,16 @@ public class Task_1_3_res {
 				try {
 					x = Double.parseDouble(xx);
 					}
-						catch (NumberFormatException e) {
+					catch (NumberFormatException e) {
 						check = 0; // Проверка
+						
 						System.out.println("------------------------------------------");
 						System.out.println("Данные введены не правильно. Введите снова");
 						System.out.println("------------------------------------------");
 						}
+						
 			System.out.println("----------------------------------");
-		
+			
 		} while ( check == 0 );
 		
 	return x;

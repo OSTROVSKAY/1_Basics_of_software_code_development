@@ -29,6 +29,7 @@ public class Task_2_1_res {
 								System.out.println("Данные введены не правильно. Введите снова");
 								System.out.println("------------------------------------------");
 							}
+							
 				System.out.println("----------------------------------");
 				
 			} while ( check == 0 );
