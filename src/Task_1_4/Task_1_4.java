@@ -13,7 +13,7 @@ public class Task_1_4 {
 	public static void main(String[] args) {
 		
 		int check = 0;
-		
+			
 			do {
 				System.out.println("--------------------------------------------------------");
 				System.out.println("--------------------------------------------------------");
@@ -61,7 +61,6 @@ public class Task_1_4 {
 				System.out.println("ПРОДОЛЖИТЬ РАБОТУ ПРОГРАММЫ ?   1 - ДА. 0 - НЕТ");
 				System.out.println("-----------------------------------------------");
 				
-				Task_1_4_res Inp = new Task_1_4_res();
 				
 				check = 0;
 				
@@ -69,7 +68,7 @@ public class Task_1_4 {
 					System.out.println("Введите : 1 - Да или 0 - Нет");
 					System.out.println("----------------------------");
 					
-					check = (int)Inp.Input();
+					check = Task_1_4_res.Input();
 						
 						if ( check < 0 | check > 1 )
 								{

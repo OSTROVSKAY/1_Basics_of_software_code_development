@@ -7,6 +7,7 @@ public class Task_3_3 {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("-----------------------------------------------------");
 		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ СУММЫ КВАДРАТОВ ПЕРВЫХ СТА ЧИСЕЛ");
 		System.out.println("-----------------------------------------------------");
 		
@@ -24,7 +25,7 @@ public class Task_3_3 {
 			{
 			Y = Y + (int)Math.pow(i, 2);
 			}
-		
+			
 		System.out.println("-----------------------------------------------------");
 		System.out.println("СУММА КВАДРАТОВ ПЕРВЫХ СТА ЧИСЕЛ РАВНА : " + "  " + Y);
 		System.out.println("-----------------------------------------------------");

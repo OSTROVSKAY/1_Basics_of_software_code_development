@@ -5,7 +5,8 @@ import java.util.Scanner;
 	
 public class Task_3_5_res {
 	
-	public double InputDouble() {
+	// Ввод данных: Double
+	public static double InputDouble() {
 	
 	int check = 1;
 	double x = 0;
@@ -23,6 +24,7 @@ public class Task_3_5_res {
 			x = Double.parseDouble(xx);
 			}
 			catch (NumberFormatException e) {
+				
 				check = 0;
 				System.out.println("------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
@@ -31,11 +33,13 @@ public class Task_3_5_res {
 		System.out.println("------------------------------");
 		
 		} while ( check == 0 );
+		
 		return x;
 	}
 	
 	
-	public int InputInt() {
+	// Ввод данных: Int
+	public static int InputInt() {
 		
 		int check = 1;
 		int x = 0;
@@ -52,21 +56,27 @@ public class Task_3_5_res {
 			try {
 				x = Integer.parseInt(xx);
 				}
-			catch (NumberFormatException e) {
-				check = 0;
-				System.out.println("------------------------------------------");
-				System.out.println("Данные введены не правильно. Введите снова");
-				System.out.println("------------------------------------------");
-				}
+				catch (NumberFormatException e) {
+					
+					check = 0;
+					System.out.println("------------------------------------------");
+					System.out.println("Данные введены не правильно. Введите снова");
+					System.out.println("------------------------------------------");
+					}
+					
 			System.out.println("------------------------------");
 			
 		} while ( check == 0 );
+		
 		return x;
 	}
 	
 	
-	public double member (int n) {
+	// Вычисление члена ряда
+	public static double member (int n) {
+		
 		double a = 1/Math.pow(2, n) + 1/Math.pow(3, n);
+		
 		return a;
 	}
 	

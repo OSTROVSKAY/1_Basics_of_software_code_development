@@ -4,36 +4,39 @@ package Task_1_4;
 import java.util.Scanner;
 	
 public class Task_1_4_res {
+	
+	// Ввод данных
+	public static int Input () {
 		
-		// Ввод данных
+		int check = 1;
+		int x = 0;
 		
-		public double Input () {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("------------------------------");
+		
+		do {
+			System.out.print("Введите Данные :.............: " + "  ");
 			
-			int check = 1;
-			double x = 0;
+			String xx = scanner.nextLine();
 			
-			Scanner scanner = new Scanner(System.in);
+			check = 1;
 			
-			System.out.println("------------------------------");
-			
-			do {
-				System.out.print("Введите Данные :.............: " + "  ");
-				
-				String xx = scanner.nextLine();
-				
-				check = 1;
-				
-				try {
-					x = Double.parseDouble(xx);
+			try {
+				x = Integer.parseInt(xx);
+				}
+				catch (NumberFormatException e) {
+					check = 0; // Проверка
+					
+					System.out.println("------------------------------------------");
+					System.out.println("Данные введены не правильно. Введите снова");
+					System.out.println("------------------------------------------");
 					}
-					catch (NumberFormatException e) {
-							check = 0; // Проверка
-							System.out.println("------------------------------------------");
-							System.out.println("Данные введены не правильно. Введите снова");
-							System.out.println("------------------------------------------");
-							}
+					
 				System.out.println("----------------------------------");
+				
 			} while ( check == 0 );
+			
 			return x;
 		}
 		

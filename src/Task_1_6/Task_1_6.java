@@ -14,14 +14,12 @@ public class Task_1_6 {
 		int check = 0;
 		
 		do {
-			System.out.println("ПРОГРАММА ПОИСКА КООРДИНАТ");
 			System.out.println("--------------------------");
+			System.out.println("ПРОГРАММА ПОИСКА КООРДИНАТ");
 			System.out.println("--------------------------");
 			
 			double X;
 			double Y;
-			
-			Task_1_6_res Inp = new Task_1_6_res();
 			
 			System.out.println("Введите значения : X, Y");
 			System.out.println("----------------------------------");
@@ -29,11 +27,11 @@ public class Task_1_6 {
 			
 			System.out.println("Введите значение : X...........:");
 			System.out.println("--------------------------------");
-			X = Inp.Input();
+			X = Task_1_6_res.Input();
 			
 			System.out.println("Введите значение : Y...........:");
 			System.out.println("--------------------------------");
-			Y = Inp.Input();
+			Y = Task_1_6_res.Input();
 			
 									// ПРИНАДЛЕЖНОСТЬ ТОЧКИ ЗАКРАШЕННОЙ ОБЛАСТИ
 			boolean log;
@@ -52,7 +50,7 @@ public class Task_1_6 {
 				System.out.println("Введите : 1 - Да или 0 - Нет");
 				System.out.println("----------------------------");
 				
-				check = (int)Inp.Input();
+				check = (int)Task_1_6_res.Input();
 				
 				if ( check < 0 | check > 1 )
 					{

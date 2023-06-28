@@ -14,6 +14,7 @@ public class Task_1_1_2 {
 	
 	public static void main(String[] args) throws IOException {
 		
+		System.out.println("----------------------------------");
 		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
 		
@@ -21,8 +22,6 @@ public class Task_1_1_2 {
 		double a = 0;
 		double b = 0;
 		double c = 0;
-		
-		Task_1_1_res Inp = new Task_1_1_res();
 		
 		int check = 0;
 		
@@ -39,7 +38,7 @@ public class Task_1_1_2 {
 				// Считывание данных с консоли
 				// String a1 = console.readLine("Введите значение : a...........:");
 				// a = Double.parseDouble(a1);
-				a = Inp.Input();
+				a = Task_1_1_res.Input();
 				}
 			System.out.println("----------------------------------");
 			
@@ -50,7 +49,7 @@ public class Task_1_1_2 {
 				// Считывание данных с консоли
 				// String b1 = console.readLine("Введите значение : b...........:");
 				// b = Double.parseDouble(b1);
-				b = Inp.Input();
+				b = Task_1_1_res.Input();
 				}
 			System.out.println("----------------------------------");
 			
@@ -61,7 +60,7 @@ public class Task_1_1_2 {
 				// Считывание данных с консоли
 				// String c1 = console.readLine("Введите значение : c...........:");
 				// c = Double.parseDouble(c1);
-				c = Inp.Input();
+				c = Task_1_1_res.Input();
 				}
 				
 		System.out.println("----------------------------------");
@@ -75,7 +74,7 @@ public class Task_1_1_2 {
 		//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
 		System.out.println("------------------------------------");
 		
-		check = Inp.Repeat();
+		check = Task_1_1_res.Repeat();
 		
 		} while ( check == 1 );
 	}

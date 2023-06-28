@@ -11,8 +11,8 @@ public class Task_2_1 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА ОПРЕДЕЛЕНИЯ ВИДА ТРЕУГОЛЬНИКА");
 		System.out.println("---------------------------------------");
+		System.out.println("ПРОГРАММА ОПРЕДЕЛЕНИЯ ВИДА ТРЕУГОЛЬНИКА");
 		System.out.println("---------------------------------------");
 		
 		double A;
@@ -20,7 +20,6 @@ public class Task_2_1 {
 		
 		int check = 0;
 		
-		Task_2_1_res Inp = new Task_2_1_res();
 		
 		do {
 			System.out.println("-----------------------------------------------------");
@@ -30,7 +29,7 @@ public class Task_2_1 {
 			do {
 				System.out.println("Введите значение угла A...........:");
 				System.out.println("-----------------------------------");
-				A = Inp.Input();
+				A = Task_2_1_res.Input();
 				
 				if ( A <= 0 )
 					{
@@ -44,7 +43,7 @@ public class Task_2_1 {
 			do {
 				System.out.println("Введите значение угла B...........:");
 				System.out.println("-----------------------------------");
-				B = Inp.Input();
+				B = Task_2_1_res.Input();
 				
 				if ( B <= 0 )
 					{
@@ -52,7 +51,7 @@ public class Task_2_1 {
 					System.out.println("Введите значение угла треугольника заново");
 					System.out.println("-----------------------------------------");
 					}
-				
+					
 				} while ( B <= 0 );
 				
 				
@@ -73,7 +72,7 @@ public class Task_2_1 {
 								System.out.println("----------------------------");
 								System.out.println("Треугольник не прямоугольный");
 								System.out.println("----------------------------");
-								 }
+								}
 						}
 						else
 							{
@@ -86,11 +85,11 @@ public class Task_2_1 {
 				System.out.println("ПРОДОЛЖИТЬ РАБОТУ ПРОГРАММЫ ?   1 - ДА. 0 - НЕТ");
 				System.out.println("-----------------------------------------------");
 				
-				do	{
+				do {
 					System.out.println("Введите : 1 - Да или 0 - Нет");
 					System.out.println("----------------------------");
 					
-					check = (int)Inp.Input();
+					check = (int)Task_2_1_res.Input();
 					
 					if ( check < 0 | check > 1 )
 						{

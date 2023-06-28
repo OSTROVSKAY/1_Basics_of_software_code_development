@@ -1,18 +1,18 @@
-	
-package Task_3_7;
-	
+
 /*
 	7. Для каждого натурального числа в промежутке от m до n
 		вывести все делители, кроме единицы и самого числа.
 		m и n вводятся с клавиатуры.
 */
+
+package Task_3_7;
 	
 public class Task_3_7 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ ДЕЛИТЕЛЕЙ НАТУРАЛЬНОГО ЧИСЛА В ПРОМЕЖУТКЕ ОТ M ДО N");
 		System.out.println("------------------------------------------------------------------------");
+		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ ДЕЛИТЕЛЕЙ НАТУРАЛЬНОГО ЧИСЛА В ПРОМЕЖУТКЕ ОТ M ДО N");
 		System.out.println("------------------------------------------------------------------------");
 		
 		System.out.println("ВВЕДИТЕ ЧИСЛО M И N : N ДОЛЖНО БЫТЬ БОЛЬШЕ M");
@@ -22,12 +22,10 @@ public class Task_3_7 {
 		System.out.println("ВВЕДИТЕ ЧИСЛО M");
 		System.out.println("------------------------------");
 		
-		Task_3_7_res Inp = new Task_3_7_res();
-		
 		int M = 0;
 		
 		do {
-			M = Inp.InputInt();
+			M = Task_3_7_res.InputInt();
 			
 			if ( M <= 0 )
 				{
@@ -35,7 +33,7 @@ public class Task_3_7 {
 				System.out.println("Данные равны 0 или меньше 0. Введите снова");
 				System.out.println("------------------------------------------");
 				}
-			
+				
 		} while ( M <= 0 );
 		
 		int N = 0;
@@ -44,7 +42,8 @@ public class Task_3_7 {
 			System.out.println("ВВЕДИТЕ ЧИСЛО N");
 			System.out.println("------------------------------");
 			
-			N = Inp.InputInt();
+			N = Task_3_7_res.InputInt();
+				
 				if ( M >= N )
 					{
 					System.out.println("-------------------------------------------");
@@ -58,7 +57,7 @@ public class Task_3_7 {
 					System.out.println("Данные равны 0 или меньше 0. Введите снова");
 					System.out.println("------------------------------------------");
 					}
-				
+					
 		} while ( M >= N );
 		
 		

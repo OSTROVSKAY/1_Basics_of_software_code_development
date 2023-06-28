@@ -7,16 +7,14 @@ public class Task_1_1 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
+		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
 		
 		double z;
 		double a;
 		double b;
 		double c;
-		
-		Task_1_1_res Inp = new Task_1_1_res();
 		
 		int check = 0;
 		
@@ -27,15 +25,15 @@ public class Task_1_1 {
 			
 			System.out.println("Введите значение a : ");
 			System.out.println("----------------------------------");
-			a = Inp.Input();
+			a = Task_1_1_res.Input();
 			
 			System.out.println("Введите значение b : ");
 			System.out.println("----------------------------------");
-			b = Inp.Input();
+			b = Task_1_1_res.Input();
 			
 			System.out.println("Введите значение c : ");
 			System.out.println("----------------------------------");
-			c = Inp.Input();
+			c = Task_1_1_res.Input();
 			
 			// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c //
 			
@@ -48,7 +46,7 @@ public class Task_1_1 {
 			//System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ РАВНО :" + "   " + z);
 			System.out.println("------------------------------------");
 			
-			check = Inp.Repeat();
+			check = Task_1_1_res.Repeat();
 			
 		} while ( check == 1 );
 		

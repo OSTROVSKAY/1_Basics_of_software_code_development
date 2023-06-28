@@ -7,16 +7,14 @@ public class Task_3_2 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ НА ОТРЕЗКЕ [a,b] с шагом h");
 		System.out.println("-------------------------------------------------------------");
+		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ НА ОТРЕЗКЕ [a,b] с шагом h");
 		System.out.println("-------------------------------------------------------------");
 		
 		double a;
 		double b;
 		
 		double h;
-		
-		Task_3_2_res Inp = new Task_3_2_res();
 		
 		System.out.println("Введите значения : a, b");
 		System.out.println("-----------------------");
@@ -29,7 +27,7 @@ public class Task_3_2 {
 		System.out.println("Введите значение : a");
 		System.out.println("-----------------------");
 		
-		a = Inp.Input();
+		a = Task_3_2_res.Input();
 		
 		System.out.println("-----------------------");
 		System.out.println("Введите значение : b");
@@ -37,7 +35,7 @@ public class Task_3_2 {
 		
 		do {
 			System.out.println("-----------------------");
-			b = Inp.Input();
+			b = Task_3_2_res.Input();
 			
 			if ( a >= b )
 				{
@@ -48,6 +46,7 @@ public class Task_3_2 {
 				System.out.println("Введите значение : b");
 				System.out.println("--------------------");
 				}
+				
 		} while ( a >= b );
 		
 		
@@ -57,7 +56,7 @@ public class Task_3_2 {
 			System.out.println("--------------------");
 			System.out.println("Введите значение : h");
 			System.out.println("--------------------");
-			h = Inp.Input();
+			h = Task_3_2_res.Input();
 			
 			if ( h >= dif )
 				{
@@ -72,8 +71,9 @@ public class Task_3_2 {
 				System.out.println("Шаг h меньше или равно 0 : Нужно ввести h заново");
 				System.out.println("------------------------------------------------");
 				}
+				
 		} while ( (h >= dif) | (h <= 0) );
 		
-		Inp.Funct(a, b, h);
+		Task_3_2_res.Funct(a, b, h);
 	}
 }

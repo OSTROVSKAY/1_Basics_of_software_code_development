@@ -11,8 +11,7 @@ public class Task_1_3_res {
 	В Java Math.tan() возвращает тангенс указанного в радианах double значения.
 */
 	// Ввод данных
-	
-	public double Input () {
+	public static double Input () {
 		
 		int check = 1;
 		double x = 0;
@@ -34,9 +33,11 @@ public class Task_1_3_res {
 						System.out.println("Данные введены не правильно. Введите снова");
 						System.out.println("------------------------------------------");
 						}
-	System.out.println("----------------------------------");
-	} while ( check == 0 );
-		return x;
+			System.out.println("----------------------------------");
+		
+		} while ( check == 0 );
+		
+	return x;
 	}
 	
 }

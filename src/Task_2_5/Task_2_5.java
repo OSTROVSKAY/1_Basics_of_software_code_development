@@ -1,4 +1,4 @@
-	
+
 /*
 	5. Вычислить значение функции.
 */
@@ -11,6 +11,7 @@ public class Task_2_5 {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("----------------------------------");
 		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
 		
@@ -31,25 +32,30 @@ public class Task_2_5 {
 			String xx = scanner.nextLine();
 			
 			check = 1;
-			
+				
 				try {
 					x = Double.parseDouble(xx);
-					} catch (NumberFormatException e) {
-					check = 0;
-					System.out.println("-------------------------------------------");
-					System.out.println("Данные введены не правильно. Введите снова");
-					System.out.println("-------------------------------------------");
 					}
-			}while (check == 0);
+					
+					catch (NumberFormatException e) {
+						
+						check = 0;
+						System.out.println("-------------------------------------------");
+						System.out.println("Данные введены не правильно. Введите снова");
+						System.out.println("-------------------------------------------");
+					}
+				
+			} while (check == 0);
 									// Вычисление значение функции :
 			
-		if ( x > 3  &  ( Math.pow(x,3) + 6 ) == 0 ) {
+		if ( x > 3 & ( Math.pow(x,3) + 6 ) == 0 )
+				{
 				System.out.println("---------------------------------");
 				System.out.println("ЗНАЧЕНИЕ ФУНКЦИИ НЕЛЬЗЯ ВЫЧИСЛИТЬ");
 				System.out.println("---------------------------------");
 				}
-		
-		if ( x > 3  &  ( Math.pow(x,3) + 6 ) != 0 )
+				
+		if ( x > 3 & ( Math.pow(x,3) + 6 ) != 0 )
 				{
 				y = 1 / ( Math.pow(x,3) + 6 );
 				}

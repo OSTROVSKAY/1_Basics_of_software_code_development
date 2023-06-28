@@ -6,37 +6,38 @@ import java.util.Scanner;
 public class Task_1_1_res {
 	
 	// Ввод данных
-	public double Input() {
+	public static double Input() {
+		
+		int check = 1;
+		double x = 0;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		do {
+			System.out.print("Введите Данные :.............: " + "  ");
+			String xx = scanner.nextLine();
 			
-			int check = 1;
-			double x = 0;
-			
-			Scanner scanner = new Scanner(System.in);
-			
-			do {
-				System.out.print("Введите Данные :.............: " + "  ");
-				String xx = scanner.nextLine();
+			check = 1;
 				
-				check = 1;
-				
-						try {
-							x = Double.parseDouble(xx);
-							}
-								catch (NumberFormatException e) {
-									check = 0;
-									System.out.println("------------------------------------------");
-									System.out.println("Данные введены не правильно. Введите снова");
-									System.out.println("------------------------------------------");
+				try {
+					x = Double.parseDouble(xx);
+					}
+						catch (NumberFormatException e) {
+							check = 0;
+							System.out.println("------------------------------------------");
+							System.out.println("Данные введены не правильно. Введите снова");
+							System.out.println("------------------------------------------");
 							}
 		System.out.println("----------------------------------");
 		
 		} while ( check == 0 );
+		
 		return x;
 	}
 	
 	
 	// Повтор выполнения программы
-	public int Repeat() {
+	public static int Repeat() {
 		
 		int check = 0;
 		
@@ -54,7 +55,7 @@ public class Task_1_1_res {
 						}
 						
 			} while ( check < 0 | check > 1 );
-		
+			
 		try {
 			Thread.sleep(1500);
 			}

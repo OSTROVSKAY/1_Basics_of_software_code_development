@@ -7,7 +7,7 @@ public class Task_1_2_res {
 	
 	// Ввод данных
 	
-	public double Input () {
+	public static double Input () {
 		
 		int check = 1;
 		double x = 0;
@@ -30,8 +30,10 @@ public class Task_1_2_res {
 						System.out.println("------------------------------------------");
 						}
 		System.out.println("----------------------------------");
+		
 		} while ( check == 0 );
-			return x;
-		}
-	
+		
+		return x;
 	}
+	
+}

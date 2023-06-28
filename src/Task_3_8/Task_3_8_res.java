@@ -7,7 +7,8 @@ import java.util.Scanner;
 	
 public class Task_3_8_res {
 	
-	public int InputInt() {
+	// Ввод данных
+	public static int InputInt() {
 		
 		int check = 1;
 		int x = 0;
@@ -23,8 +24,11 @@ public class Task_3_8_res {
 					try {
 						x = Integer.parseInt(xx);
 						}
-						catch (NumberFormatException e) {
-						check = 0;
+						catch (NumberFormatException e)
+							
+							{
+							check = 0;
+							
 							System.out.println("------------------------------------------");
 							System.out.println("Данные введены не правильно. Введите снова");
 							System.out.println("------------------------------------------");
@@ -33,22 +37,30 @@ public class Task_3_8_res {
 						System.out.println("------------------------------");
 						
 		} while ( check == 0 );
+		
 		return x;
 	}
 	
 	
-	public ArrayList numberEnter(int a){
+	// Разложение числа на цифры, которые составляют это число
+	public static ArrayList<Integer> numberEnter(int a){
 		
 		ArrayList<Integer> array = new ArrayList<Integer>();
 			
-			while(a > 0){
+			while (a > 0) {
 			
 			int i = 0;
+			
 			array.add(i, a % 10);
+			
+			a = a - a % 10;
+			
 			a = a / 10;
-			i++;
+			
+			// i++;
 			
 			}
+			
 		return array;
 	}
 	

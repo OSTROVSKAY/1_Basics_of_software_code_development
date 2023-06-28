@@ -6,13 +6,13 @@
 	
 package Task_2_4;
 	
-import java.io.IOException;
 import java.util.Scanner;
 	
 public class Task_2_4 {
 	
 	public static void main(String[] args) {
 	
+	System.out.println("------------------------------------------------------------");
 	System.out.println("ПРОГРАММА: ПРОЙДЁТ ЛИ КИРПИЧ ЧЕРЕЗ ПРЯМОУГОЛЬНОЕ ОТВЕРСТИЕ ?");
 	System.out.println("------------------------------------------------------------");
 	
@@ -38,11 +38,14 @@ public class Task_2_4 {
 		
 		try {
 			A = Double.parseDouble(AA);
+			
 			} catch (NumberFormatException e) {
+				
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 				}
 			System.out.println("------------------------------------------------------------------");
+			
 		} while (A <= 0);
 		
 	do {
@@ -52,54 +55,70 @@ public class Task_2_4 {
 		
 		try {
 			B = Double.parseDouble(BB);
-			} catch (NumberFormatException e) {
+			}
+			catch (NumberFormatException e) {
+				
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 				}
 			System.out.println("------------------------------------------------------------------");
-		}while (B <= 0);
+			
+		} while (B <= 0);
 		
 	System.out.println("------------------------------------------------------------------");
 	System.out.println("Введите размеры кирпича : Длина - x, Ширина - y, Высота - z ");
 	System.out.println("------------------------------------------------------------------");
-		
+	
 	do {
 		System.out.println("------------------------------------------------------------------");
 		System.out.print("Введите значение : Длина кирпича - x.............................: " + " ");
 		String xx = scanner.nextLine();
+		
 		try {
 			x = Double.parseDouble(xx);
-			} catch (NumberFormatException e) {
+			}
+			catch (NumberFormatException e) {
+				
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 			}
 			System.out.println("------------------------------------------------------------------");
+			
 		}while (x <= 0);
 		
 	do {
 		System.out.println("------------------------------------------------------------------");
 		System.out.print("Введите значение : Длина кирпича - y.............................: " + " ");
 		String yy = scanner.nextLine();
+		
 		try {
 			y = Double.parseDouble(yy);
-			} catch (NumberFormatException e) {
+			}
+			catch (NumberFormatException e) {
+				
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 			}
+			
 			System.out.println("------------------------------------------------------------------");
-		}while (y <= 0);
+			
+		} while (y <= 0);
 		
 	do {
 		System.out.println("------------------------------------------------------------------");
 		System.out.print("Введите значение : Высота кирпича - z............................: " + " ");
 		String zz = scanner.nextLine();
+		
 		try {
 			z = Double.parseDouble(zz);
-			} catch (NumberFormatException e) {
+			}
+			catch (NumberFormatException e) {
+				
 				System.out.println("------------------------------------------------------------------");
 				System.out.println("Данные введены не правильно. Введите снова");
 			}
 			System.out.println("------------------------------------------------------------------");
+			
 		}while (z <= 0);
 									// Определение, пройдет ли кирпич через отверстие
 			
@@ -121,7 +140,7 @@ public class Task_2_4 {
 			System.out.println("-----------------------------------------------");
 			System.out.println("-----------------------------------------------");
 			}
-		
+			
 		scanner.close();
 	}
 	

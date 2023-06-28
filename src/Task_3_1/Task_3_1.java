@@ -38,7 +38,7 @@ public class Task_3_1 {
 				check = 1;
 				
 			try {
-				x = Double.parseDouble(xx);
+				x = Integer.parseInt(xx);
 				
 				if ( x <= 0 )
 					{
@@ -46,14 +46,16 @@ public class Task_3_1 {
 					System.out.println("Введенные данные меньше или равны 0. Введите снова.");
 					System.out.println("---------------------------------------------------");
 					}
+					
 				} catch (NumberFormatException e) {
+					
 					check = 0;
 					System.out.println("-------------------------------------------");
 					System.out.println("Данные введены не правильно. Введите снова.");
 					System.out.println("-------------------------------------------");
 					}
 				}
-			
+				
 		while ( check == 0 | x <= 0 );
 			
 							// Вычисление суммы всех чисел от 1 до введенного пользователем числа.
@@ -62,7 +64,7 @@ public class Task_3_1 {
 			{
 			y = y + i;
 			}
-		
+			
 		System.out.println("----------------------------------------");
 		System.out.println("----------------------------------------");
 		System.out.println("ЗНАЧЕНИЕ СУММЫ ЧИСЕЛ РАВНО : " + "  " + y);
@@ -87,20 +89,22 @@ public class Task_3_1 {
 				check1 = Integer.parseInt(check11);
 				}
 				catch (NumberFormatException e) {
+					
 					check = 0;
 					System.out.println("-------------------------------------------");
 					System.out.println("Данные введены не правильно. Введите снова.");
 					System.out.println("-------------------------------------------");
 					}
-				}while ( check == 0 );
+					
+				} while ( check == 0 );
 				
-				if ( check < 0 | check > 1 ) 
+				if ( check < 0 | check > 1 )
 					{
 					System.out.println("------------------------------------------------");
 					System.out.println("Введеные данные не равны 0 или 1. Введите снова.");
 					System.out.println("------------------------------------------------");
 					}
-				
+					
 		} while ( check < 0 | check > 1 );
 			
 		try {
@@ -112,7 +116,7 @@ public class Task_3_1 {
 					System.out.println("Ошибка в работе программы");
 					System.out.println("-------------------------");
 					}
-			
+					
 		} while ( check1 == 1 );
 		
 		scanner.close();

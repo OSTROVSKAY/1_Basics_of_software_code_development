@@ -10,8 +10,8 @@ public class Task_2_3 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА ОПРЕДЕЛЕНИЯ РАСПОЛОЖЕНИЯ ТОЧЕК НА ОДНОЙ ПРЯМОЙ");
 		System.out.println("--------------------------------------------------------");
+		System.out.println("ПРОГРАММА ОПРЕДЕЛЕНИЯ РАСПОЛОЖЕНИЯ ТОЧЕК НА ОДНОЙ ПРЯМОЙ");
 		System.out.println("--------------------------------------------------------");
 		
 	// Координаты Точки A
@@ -26,7 +26,6 @@ public class Task_2_3 {
 		double x3;
 		double y3;
 		
-		Task_2_3_res Inp = new Task_2_3_res();
 		
 		int check = 0;
 		
@@ -38,11 +37,11 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
-				x1 = Inp.Input();
+				x1 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
-				y1 = Inp.Input();
+				y1 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------");
 				System.out.println("Введите Координаты точки B :");
@@ -50,11 +49,11 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
-				x2 = Inp.Input();
+				x2 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
-				y2 = Inp.Input();
+				y2 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------");
 				System.out.println("Введите Координаты точки C :");
@@ -62,14 +61,14 @@ public class Task_2_3 {
 				
 				System.out.println("Введите значение : X");
 				System.out.println("--------------------");
-				x3 = Inp.Input();
+				x3 = Task_2_3_res.Input();
 				
 				System.out.println("Введите значение : Y");
 				System.out.println("--------------------");
-				y3 = Inp.Input();
+				y3 = Task_2_3_res.Input();
 				
 				System.out.println("----------------------------------");
-				
+					
 					if ( ( ( y2 - y1 ) != 0 ) | ( ( x2 - x1 ) != 0 ) )
 						{
 							double div1 = ( y3 - y1 ) / ( y2 - y1 );
@@ -90,7 +89,7 @@ public class Task_2_3 {
 										System.out.println("y2 - y1 = 0 ИЛИ x2 - x1 = 0  Введите данные снова");
 										System.out.println("-------------------------------------------------");
 										}
-					
+										
 				} while ( ( ( y2 - y1 ) == 0 ) | ( ( x2 - x1 ) == 0 ) );
 				
 				/*
@@ -136,8 +135,8 @@ public class Task_2_3 {
 						System.out.println("Введите : 1 - Да или 0 - Нет");
 						System.out.println("----------------------------");
 						
-						check = (int)Inp.Input();
-						
+						check = (int)Task_2_3_res.Input();
+							
 							if ( check < 0 | check > 1 )
 								{
 								System.out.println("------------------------------------------------");
@@ -155,7 +154,7 @@ public class Task_2_3 {
 									System.out.println("Ошибка в работе программы");
 									System.out.println("-------------------------");
 									}
-								
+									
 			} while ( check == 1 );
 		}
 	}

@@ -12,15 +12,13 @@ public class Task_3_8 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА : ОПРЕДЕЛЕНИЕ ЦИФЕР, ВХОДЯЩИХ В ЗАПИСЬ КАК ПЕРВОГО ТАК И ВТОРОГО ЧИСЛА");
 		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("ПРОГРАММА : ОПРЕДЕЛЕНИЕ ЦИФЕР, ВХОДЯЩИХ В ЗАПИСЬ КАК ПЕРВОГО ТАК И ВТОРОГО ЧИСЛА");
 		System.out.println("--------------------------------------------------------------------------------");
 		
 		System.out.println("Введите значения двух чисел : A, B");
 		System.out.println("-----------------------------------");
 		System.out.println("-----------------------------------");
-		
-		Task_3_8_res Inp = new Task_3_8_res();
 		
 		// Ввод первого числа
 		System.out.println("Введите значение числа : A");
@@ -29,7 +27,7 @@ public class Task_3_8 {
 		int A = 0;
 		
 		do {
-			A = Inp.InputInt();
+			A = Task_3_8_res.InputInt();
 			
 			if ( A < 0 )
 				{
@@ -47,7 +45,7 @@ public class Task_3_8 {
 			int B = 0;
 			
 			do {
-				B = Inp.InputInt();
+				B = Task_3_8_res.InputInt();
 				
 				if ( B < 0 )
 					{
@@ -58,14 +56,14 @@ public class Task_3_8 {
 					
 			} while ( B < 0 );
 			
-				// Ввод первого массива
+			// Ввод первого массива
 			ArrayList<Integer> arrA = new ArrayList<Integer>();
-			arrA = Inp.numberEnter(A);
+			arrA = Task_3_8_res.numberEnter(A);
 			
-				// Ввод второго массива
+			// Ввод второго массива
 			ArrayList<Integer> arrB = new ArrayList<Integer>();
 			
-			arrB = Inp.numberEnter(B);
+			arrB = Task_3_8_res.numberEnter(B);
 			
 			System.out.println("----------------------------------------------------------------");
 			System.out.println("----------------------------------------------------------------");
@@ -80,7 +78,7 @@ public class Task_3_8 {
 			входящие в запись как первого так и второго числа.
 			*/
 			
-				// Ввод третьего массива
+			// Ввод третьего массива
 			ArrayList<Integer> arrC = new ArrayList<Integer>();
 			
 			int count = 0;
@@ -93,6 +91,7 @@ public class Task_3_8 {
 						{
 						arrC.add(arrA.get(i));
 						count = count + 1;
+						
 						System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------");
 						System.out.println( "Номер элемента первого массива : " + i + "   " + "Значение элемента первого массива : " + arrA.get(i) + "  |||  " + "Номер элемента второго массива : " + j + "   " + "Значение второго массива : " + arrB.get(j));
 						System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -107,7 +106,7 @@ public class Task_3_8 {
 			int minind = 0;
 			
 			for ( int i = 0; i < arrC.size(); i++) {
-			
+				
 				min = arrC.get(i);
 				min1 = arrC.get(i);
 				minind = i;
@@ -142,7 +141,8 @@ public class Task_3_8 {
 			int count8 = 0;
 			int count9 = 0;
 			
-			for ( int i = 0; i < arrC.size(); i++ ) {
+			for ( int i = 0; i < arrC.size(); i++ )
+				{
 				if ( arrC.get(i) == 0 ) { count0 = count0 + 1;}
 				if ( arrC.get(i) == 1 ) { count1 = count1 + 1;}
 				if ( arrC.get(i) == 2 ) { count2 = count2 + 1;}
@@ -154,7 +154,7 @@ public class Task_3_8 {
 				if ( arrC.get(i) == 8 ) { count8 = count8 + 1;}
 				if ( arrC.get(i) == 9 ) { count9 = count9 + 1;}
 				}
-			
+				
 			int repeat = 0;
 			
 			if ( count0 > 1 ) { repeat =  repeat + ( count0 - 1 ); }
@@ -167,8 +167,6 @@ public class Task_3_8 {
 			if ( count7 > 1 ) { repeat =  repeat + ( count7 - 1 ); }
 			if ( count8 > 1 ) { repeat =  repeat + ( count8 - 1 ); }
 			if ( count9 > 1 ) { repeat =  repeat + ( count9 - 1 ); }
-			
-			int check = 0;
 			
 			// System.out.println("Вывод на печать третьего массива : " +  arrC);
 			

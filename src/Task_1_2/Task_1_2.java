@@ -6,14 +6,12 @@
 	
 package Task_1_2;
 	
-import java.util.Scanner;
-	
 public class Task_1_2 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
+		System.out.println("ПРОГРАММА РАСЧЁТА ЗНАЧЕНИЯ ФУНКЦИИ");
 		System.out.println("----------------------------------");
 		
 		double z;
@@ -21,7 +19,6 @@ public class Task_1_2 {
 		double b;
 		double c;
 		
-		Task_1_2_res Inp = new Task_1_2_res();
 		
 		do {
 			System.out.println("Введите значения : a, b, c");
@@ -34,7 +31,7 @@ public class Task_1_2 {
 			System.out.println("----------------------------------");
 			
 			do {
-				a = Inp.Input();
+				a = Task_1_2_res.Input();
 				
 				if ( a == 0 ) {
 								System.out.println("--------------------------------");
@@ -52,7 +49,7 @@ public class Task_1_2 {
 				System.out.println("----------------------------------");
 				
 			do {
-				b = Inp.Input();
+				b = Task_1_2_res.Input();
 				
 				if ( b == 0 ) {
 								System.out.println("--------------------------------");
@@ -63,7 +60,7 @@ public class Task_1_2 {
 				
 				System.out.println("Введите значение c : ");
 				System.out.println("----------------------------------");
-				c = Inp.Input();
+				c = Task_1_2_res.Input();
 				System.out.println("----------------------------------");
 				
 				if (Math.pow(b,2) + 4*a*c < 0) {
@@ -71,7 +68,7 @@ public class Task_1_2 {
 							System.out.println("Не может быть получен Квадратный корень из отрицательно числа. Введите a, b и c снова");
 							System.out.println("-------------------------------------------------------------------------------------");
 							}
-						
+							
 		} while (Math.pow(b,2) + 4*a*c < 0);
 		// Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 		// Функция содержит вычисление квадратного корня, рациональную дробь, и отрицательную степень числа

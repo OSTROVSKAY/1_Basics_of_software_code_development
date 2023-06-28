@@ -9,8 +9,8 @@ public class Task_3_4 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ ПРОИЗВЕДЕНИЯ КВАДРАТОВ ПЕРВЫХ ДВУХСОТ ЧИСЕЛ");
 		System.out.println("----------------------------------------------------------------");
+		System.out.println("ПРОГРАММА ВЫЧИСЛЕНИЯ ПРОИЗВЕДЕНИЯ КВАДРАТОВ ПЕРВЫХ ДВУХСОТ ЧИСЕЛ");
 		System.out.println("----------------------------------------------------------------");
 		
 		// Первое число
@@ -27,7 +27,7 @@ public class Task_3_4 {
 		
 		for ( int i = A; i <= B; i++ )
 			{
-			YY = BigInteger.valueOf(i*i);
+			YY = BigInteger.valueOf( i*i );
 			
 			Y = Y.multiply(BigInteger.valueOf((long) i * i));
 			
