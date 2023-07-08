@@ -22,7 +22,7 @@ public class Task_1_6_res {
 				try {
 					x = Double.parseDouble(xx);
 					}
-						catch (NumberFormatException e) {
+					catch (NumberFormatException e) {
 								
 								check = 0;
 								

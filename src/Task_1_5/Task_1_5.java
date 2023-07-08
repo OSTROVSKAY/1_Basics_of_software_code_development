@@ -89,7 +89,7 @@ public class Task_1_5 {
 			try {
 				Thread.sleep(1500);
 				}
-					catch(InterruptedException ex)
+				catch(InterruptedException ex)
 						{
 						System.out.println("-------------------------");
 						System.out.println("Ошибка в работе программы");

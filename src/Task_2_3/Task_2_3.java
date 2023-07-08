@@ -156,7 +156,7 @@ public class Task_2_3 {
 						try {
 							Thread.sleep(1500);
 							}
-								catch(InterruptedException ex)
+							catch(InterruptedException ex)
 									{
 									System.out.println("-------------------------");
 									System.out.println("Ошибка в работе программы");
